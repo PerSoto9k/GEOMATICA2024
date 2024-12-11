@@ -1,0 +1,1212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<centros_medicos>
+    <centro id="1">
+        <id>1</id>
+        <nombre>CENTRO MATERNO INFANTIL SAN JOSE, VILLA EL SALVADOR, LIMA</nombre>
+        <categoria>II-1</categoria>        
+        <telefono>01-2920104</telefono>
+        <coordenadas>-12.1985268, -76.94612169999999</coordenadas>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <horario>24 HORAS</horario>
+    </centro>
+    <centro id="2">
+        <id>2</id>
+        <nombre>PUESTO DE SALUD PAMPA GRANDE</nombre>
+        <categoria>I-2</categoria>
+        <telefono>934451206</telefono>
+        <coordenadas>-12.2401868, -76.8710179</coordenadas>
+        <distrito>PACHACAMAC</distrito>
+        <horario>06 HORAS / 08:00 A 1</horario>
+    </centro>
+    <centro id="3">
+        <id>3</id>
+        <nombre>PUESTO DE SALUD SAN ROQUE</nombre>
+        <categoria>I-2</categoria>
+        <telefono>992883188</telefono>
+        <coordenadas>-12.1491478, -76.9889134</coordenadas>
+        <distrito>SANTIAGO DE SURCO LIMA LIMA</distrito>
+        <horario>8:00 - 14:00</horario>
+    </centro>
+    <centro id="4">
+        <id>4</id>
+        <nombre>PUESTO DE SALUD DAVID GUERRERO DUARTE</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2951826</telefono>
+        <coordenadas>-12.1842138, -76.92478899999999</coordenadas>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>8:00-14:00</horario>
+    </centro>
+    <centro id="5">
+        <id>5</id>
+        <nombre>CENTRO DE SALUD PUNTA NEGRA</nombre>
+        <categoria>I-3</categoria>
+        <telefono>920247797</telefono>
+        <coordenadas>-12.3637386, -76.7959712</coordenadas>
+        <distrito>PUNTA NEGRA</distrito>
+        <horario>12 HORAS / 08:00 A 2</horario>
+    </centro>
+    <centro id="6">
+        <id>6</id>
+        <nombre>CENTRO MATERNO INFANTIL LURIN</nombre>
+        <categoria>I-4</categoria>
+        <telefono>4301000</telefono>
+        <coordenadas>-12.2722674, -76.8695552</coordenadas>
+        <distrito>LURIN</distrito>
+        <horario>24 HORAS</horario>
+    </centro>
+    <centro id="7">
+        <id>7</id>
+        <nombre>CENTRO DE SALUD LEONOR SAAVEDRA</nombre>
+        <categoria>I-3</categoria>
+        <telefono>01-4503113</telefono>
+        <coordenadas>-12.151942787947222, -76.97197038614453</coordenadas>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>08-08 AM</horario>
+    </centro>
+    <centro id="8">
+        <id>8</id>
+        <nombre>PUESTO DE SALUD FERNANDO LUYO SIERRA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>986851662</telefono>
+        <coordenadas>-12.2288205, -76.9426323</coordenadas>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <horario>08:00-14:00 L-S</horario>
+    </centro>
+    <centro id="9">
+        <id>9</id>
+        <nombre>TAMBO VIEJO</nombre>
+        <categoria>I-4</categoria>
+        <telefono>4798849</telefono>
+        <coordenadas>-12.1150514, -76.8096871</coordenadas>
+        <distrito>CIENEGUILLA</distrito>
+        <horario>24 HORAS</horario>
+    </centro>
+
+    <centro id="10">
+        <id>10</id>
+        <nombre>CENTRO DE SALUD MENTAL COMUNITARIO SAN GABRIEL ALTO</nombre>
+        <categoria>I-3</categoria>
+        <telefono>01-2830482</telefono>
+        <coordenadas>-12.13655, -76.9480463</coordenadas>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>8:00-20:00 HORAS</horario>
+    </centro>
+    <centro id="11">
+        <id>11</id>
+        <nombre>PUESTO DE SALUD SANTA ROSA LAS CONCHITAS</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01 2671457</telefono>
+        <coordenadas>-12.2024572, -76.92583259999999</coordenadas>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>8:00-14:00</horario>
+    </centro>
+    <centro id="12">
+        <id>12</id>
+        <nombre>PUESTO DE SALUD NUEVA ESPERANZA ALTA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2914478</telefono>
+        <coordenadas>-12.1793845, -76.9364136</coordenadas>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>8:00-14:00 HORAS</horario>
+    </centro>
+    <centro id="13">
+        <id>13</id>
+        <nombre>PUESTO DE SALUD CESAR VALLEJO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>3139652</telefono>
+        <coordenadas>-12.1870807, -76.9371942</coordenadas>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>8:00-14:00</horario>
+    </centro>
+    <centro id="14">
+        <id>14</id>
+        <nombre>CENTRO DE SALUD MENTAL COMUNITARIO 12 DE NOVIEMBRE</nombre>
+        <categoria>I-3</categoria>
+        <telefono>4506060</telefono>
+        <coordenadas>-12.1375471, -76.96828099999999</coordenadas>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>07:00 - 19:00</horario>
+    </centro>
+    <centro id="15">
+        <id>15</id>
+        <nombre>PUESTO DE SALUD CARDAL</nombre>
+        <categoria>I-2</categoria>
+        <telefono>996055626</telefono>
+        <coordenadas>-12.1812589 , -76.8512922</coordenadas>
+        <distrito>PACHACAMAC</distrito>
+        <horario>06 HORAS / 08:00 A 2</horario>
+    </centro>
+    <centro id="16">
+        <id>16</id>
+        <nombre>CENTRO DE SALUD MENTAL COMUNITARIO CRL. SAN. WILELMO PEDRO ZORILLA HUAMAN</nombre>
+        <categoria>I-3</categoria>
+        <telefono>014793341</telefono>
+        <coordenadas>-12.1592818, -77.0200242</coordenadas>
+        <distrito>CHORRILLOS</distrito>
+        <horario>7:00 - 19:00</horario>
+    </centro>
+    <centro id="17">
+        <id>17</id>
+        <nombre>CENTRO DE SALUD MENTAL COMUNITARIO MONSEÑOR JOSE RAMON GURRUCHAGA</nombre>
+        <categoria>I-3</categoria>
+        <telefono>947273819</telefono>
+        <coordenadas>-12.1937558, -76.919051</coordenadas>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>7:00 - 19:00</horario>
+    </centro>
+    <centro id="18">
+        <id>18</id>
+        <nombre>PUESTO DE SALUD SARITA COLONIA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>012880014</telefono>
+        <coordenadas>-12.2132581, -76.9446134</coordenadas>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <horario>08:00 A 14:00 L-S</horario>
+    </centro>
+    <centro id="19">
+        <id>19</id>
+        <nombre>PUESTO DE SALUD 5 DE MAYO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2853628</telefono>
+        <coordenadas>-12.1324082, -76.96264839999999</coordenadas>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>8:00-14:00</horario>
+    </centro>
+    <centro id="20">
+    <id>20</id>
+    <nombre>PUESTO DE SALUD SAN FRANCISCO DE LA CRUZ</nombre>
+    <categoria>I-2</categoria>
+    <telefono>01-2854219</telefono>
+    <coordenadas>-12.151813, -76.9633458</coordenadas>
+    <distrito>SAN JUAN DE MIRAFLORES</distrito>
+    <horario>8:00-14:00 (L-S)</horario>
+</centro>
+<centro id="21">
+    <id>21</id>
+    <nombre>CENTRO MATERNO INFANTIL CESAR LOPEZ SILVA</nombre>
+    <categoria>I-4</categoria>
+    <telefono>01-2687738</telefono>
+    <coordenadas>-12.2303179, -76.9236796</coordenadas>
+    <distrito>VILLA EL SALVADOR</distrito>
+    <horario>24 HRS</horario>
+</centro>
+<centro id="22">
+    <id>22</id>
+    <nombre>PUESTO DE SALUD PRINCIPE DE ASTURIAS</nombre>
+    <categoria>I-2</categoria>
+    <telefono>2933917</telefono>
+    <coordenadas>-12.2303943, -76.91134</coordenadas>
+    <distrito>VILLA EL SALVADOR</distrito>
+    <horario>08:00 - 14:00</horario>
+</centro>
+<centro id="23">
+    <id>23</id>
+    <nombre>CENTRO MATERNO INFANTIL JOSE GALVEZ</nombre>
+    <categoria>I-4</categoria>
+    <telefono>01-2932609</telefono>
+    <coordenadas>-12.2103466, -76.90794369999999</coordenadas>
+    <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+    <horario>24 HORAS</horario>
+</centro>
+<centro id="24">
+    <id>24</id>
+    <nombre>CENTRO MATERNO INFANTIL OLLANTAY</nombre>
+    <categoria>I-4</categoria>
+    <telefono>01-2851295</telefono>
+    <coordenadas>-12.1356219, -76.963465</coordenadas>
+    <distrito>SAN JUAN DE MIRAFLORES</distrito>
+    <horario>24 HORAS</horario>
+</centro>
+<centro id="25">
+    <id>25</id>
+    <nombre>CENTRO DE EMERGENCIAS SAN PEDRO DE LOS CHORRILLOS</nombre>
+    <categoria>I-4</categoria>
+    <telefono>(51) 1-2518442</telefono>
+    <coordenadas>-12.1665516, -77.02363</coordenadas>
+    <distrito>CHORRILLOS</distrito>
+    <horario>TODOS LOS DIAS :24 H</horario>
+</centro>
+<centro id="26">
+    <id>26</id>
+    <nombre>PUESTO DE SALUD MATEO PUMACAHUA</nombre>
+    <categoria>I-2</categoria>
+    <telefono>01-5761809</telefono>
+    <coordenadas>-12.1916117, -76.98086769999999</coordenadas>
+    <distrito>CHORRILLOS</distrito>
+    <horario>08:00 - 14:00</horario>
+</centro>
+<centro id="27">
+    <id>27</id>
+    <nombre>CENTRO DE SALUD MENTAL COMUNITARIO VIRGEN DE LA MERCED</nombre>
+    <categoria>I-3</categoria>
+    <telefono>986221760</telefono>
+    <coordenadas>-12.2430894, -76.92939930000001</coordenadas>
+    <distrito>VILLA EL SALVADOR</distrito>
+    <horario>7:00 - 19:00</horario>
+</centro>
+<centro id="28">
+    <id>28</id>
+    <nombre>CENTRO DE SALUD SAN JUAN DE MIRAFLORES</nombre>
+    <categoria>I-3</categoria>
+    <telefono>962280735</telefono>
+    <coordenadas>-12.1578985, -76.97529229999999</coordenadas>
+    <distrito>SAN JUAN DE MIRAFLORES</distrito>
+    <horario>8:00-14:00</horario>
+</centro>
+<centro id="29">
+    <id>29</id>
+    <nombre>PUESTO DE SALUD DEFENSORES DE LIMA</nombre>
+    <categoria>I-2</categoria>
+    <telefono>01-7158608</telefono>
+    <coordenadas>-12.194172, -76.97560709999999</coordenadas>
+    <distrito>CHORRILLOS</distrito>
+    <horario>8:00 - 14:00</horario>
+</centro>
+    <centro id="30">
+        <id>30</id>
+        <nombre>CENTRO MATERNO INFANTIL JUAN PABLO II</nombre>
+        <categoria>I-4</categoria>
+        <telefono>014931881</telefono>
+        <coordenadas>-12.2189399, -76.9456003</coordenadas>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <horario>24 HRS</horario>
+    </centro>
+    <centro id="31">
+        <id>31</id>
+        <nombre>PUESTO DE SALUD 6 DE JULIO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2790468</telefono>
+        <coordenadas>-12.1408028, -76.9779264</coordenadas>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>8:00-14:00</horario>
+    </centro>
+    <centro id="32">
+        <id>32</id>
+        <nombre>PUESTO DE SALUD CRISTO SALVADOR</nombre>
+        <categoria>I-2</categoria>
+        <telefono>920672220</telefono>
+        <coordenadas>-12.2329951, -76.9433591</coordenadas>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <horario>08:00 A 14:00</horario>
+    </centro>
+    <centro id="33">
+        <id>33</id>
+        <nombre>PUESTO DE SALUD MODULO I</nombre>
+        <categoria>I-2</categoria>
+        <telefono>(51) 1-2801351</telefono>
+        <coordenadas>-12.2245614, -76.9112315</coordenadas>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>8:00-14:00 HORAS</horario>
+    </centro>
+    <centro id="34">
+        <id>34</id>
+        <nombre>PUESTO DE SALUD LOS VIÑEDOS DE SURCO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01 2579543</telefono>
+        <coordenadas>-12.1626498, -76.98948639999999</coordenadas>
+        <distrito>SANTIAGO DE SURCO</distrito>
+        <horario>8:00 -  20:00</horario>
+    </centro>
+    <centro id="35">
+        <id>35</id>
+        <nombre>PUESTO DE SALUD TAMBO INGA</nombre>
+        <categoria>I-1</categoria>
+        <telefono>979731510</telefono>
+        <coordenadas>-12.1473044, -76.84103700000001</coordenadas>
+        <distrito>PACHACAMAC</distrito>
+        <horario>8:00-14:00</horario>
+    </centro>
+    <centro id="36">
+        <id>36</id>
+        <nombre>CENTRO DE SALUD MENTAL COMUNITARIO SANTA ROSA DE MANCHAY</nombre>
+        <categoria>I-3</categoria>
+        <telefono>994968951</telefono>
+        <coordenadas>-12.0949501, -76.8850267</coordenadas>
+        <distrito>PACHACAMAC</distrito>
+        <horario>08 AM - 20 HORAS</horario>
+    </centro>
+    <centro id="37">
+        <id>37</id>
+        <nombre>CENTRO DE SALUD SAN MARTIN DE PORRES</nombre>
+        <categoria>I-3</categoria>
+        <telefono>4930655</telefono>
+        <coordenadas>-12.2120572, -76.9392625</coordenadas>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <horario>07:00 - 19:00</horario>
+    </centro>
+    <centro id="38">
+        <id>38</id>
+        <nombre>PUESTO DE SALUD MARTHA MILAGROS BAJA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>2682343</telefono>
+        <coordenadas>-12.234083, -76.9024962</coordenadas>
+        <distrito>LURIN</distrito>
+        <horario>8:00-14:00</horario>
+    </centro>
+    <centro id="39">
+        <id>39</id>
+        <nombre>CENTRO DE SALUD SAN BARTOLO</nombre>
+        <categoria>I-3</categoria>
+        <telefono>4307843</telefono>
+        <coordenadas>-12.387183, -76.7771796</coordenadas>
+        <distrito>SAN BARTOLO</distrito>
+        <horario>08:00-20:00 l-s</horario>
+    </centro>
+
+    <centro id="40">
+        <id>61</id>
+        <nombre>CENTRO DE SALUD MENTAL COMUNITARIO EL SOL DE VILLA</nombre>
+        <categoria>I-3</categoria>
+        <telefono>987718944</telefono>
+        <coordenadas>-12.2015818, -76.9422508</coordenadas>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <horario>7:30 A 19:30</horario>
+    </centro>
+
+    <centro id="41">
+        <id>41</id>
+        <nombre>PUESTO DE SALUD NUEVA CALEDONIA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2551787</telefono>
+        <coordenadas>-12.2000346, -77.0296714</coordenadas>
+        <distrito>CHORRILLOS</distrito>
+        <horario>8:00 - 14:00</horario>
+    </centro>
+    <centro id="42">
+        <id>42</id>
+        <nombre>CENTRO MATERNO INFANTIL VILLA MARIA DEL TRIUNFO</nombre>
+        <categoria>I-4</categoria>
+        <telefono>01-5933900</telefono>
+        <coordenadas>-12.156803, -76.9362632</coordenadas>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>24 HORAS DE LUNES A</horario>
+    </centro>
+    <centro id="43">
+        <id>43</id>
+        <nombre>PUESTO DE SALUD DESIDERIO MOSCOSO CASTILLO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>979297053</telefono>
+        <coordenadas>-12.1245598, -76.9511306</coordenadas>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>8.00 -14.00</horario>
+    </centro>
+    <centro id="44">
+        <id>44</id>
+        <nombre>PUESTO DE SALUD VALLE SHARON</nombre>
+        <categoria>I-2</categoria>
+        <telefono>014552291</telefono>
+        <coordenadas>-12.1710334, -76.9661805</coordenadas>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>8:00-14:00</horario>
+    </centro>
+    <centro id="45">
+        <id>45</id>
+        <nombre>CENTRO DE ATENCION DEL ADULTO MAYOR TAYTA WASI</nombre>
+        <categoria>I-3</categoria>
+        <telefono>01-2599171</telefono>
+        <coordenadas>-12.1415775, -76.94994</coordenadas>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>LUNES A SABADO 8 A 8</horario>
+    </centro>
+    <centro id="46">
+        <id>46</id>
+        <nombre>PUESTO DE SALUD JOSE MARIA ARGUEDAS</nombre>
+        <categoria>I-2</categoria>
+        <telefono>(51) 1-2674606</telefono>
+        <coordenadas>-12.1327747, -76.9552343</coordenadas>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>7:00 - 19:00</horario>
+    </centro>
+    <centro id="47">
+        <id>47</id>
+        <nombre>CENTRO DE SALUD DELICIAS DE VILLA</nombre>
+        <categoria>I-3</categoria>
+        <telefono>01-2585457</telefono>
+        <coordenadas>-12.1987325, -76.9929949</coordenadas>
+        <distrito>CHORRILLOS</distrito>
+        <horario>24 HORAS</horario>
+    </centro>
+    <centro id="48">
+        <id>48</id>
+        <nombre>PUESTO DE SALUD 12 DE JUNIO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>989458686</telefono>
+        <coordenadas>-12.1632064, -76.929695</coordenadas>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>LUNES A SÁBADO  8.00</horario>
+    </centro>
+    <centro id="49">
+        <id>49</id>
+        <nombre>PUESTO DE SALUD VILLA VENTURO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>941826069</telefono>
+        <coordenadas>-12.1875846, -77.0126343</coordenadas>
+        <distrito>CHORRILLOS</distrito>
+        <horario>8:00 - 14:00</horario>
+    </centro>
+    <centro id="50">
+        <id>50</id>
+        <nombre>PUESTO DE SALUD VISTA ALEGRE DE VILLA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2485774</telefono>
+        <coordenadas>-12.1870604, -76.992612</coordenadas>
+        <distrito>CHORRILLOS</distrito>
+        <horario>8:00 - 14:00</horario>
+    </centro>
+    <centro id="51">
+        <id>51</id>
+        <nombre>PUESTO DE SALUD SAGRADA FAMILIA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>966429605</telefono>
+        <coordenadas>-12.2091445, -76.9437976</coordenadas>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <horario>08:00 - 14:00</horario>
+    </centro>
+        <centro id="52">
+        <id>52</id>
+        <nombre>PUESTO DE SALUD LLANAVILLA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2914507</telefono>
+        <coordenadas>-12.1913889, -76.9417582</coordenadas>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <horario>06 HORAS / 08:00 L-S</horario>
+    </centro>
+    <centro id="53">
+        <id>53</id>
+        <nombre>CENTRO DE SALUD MENTAL COMUNITARIO CIENEGUILLA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>4089409</telefono>
+        <coordenadas>-12.1122458, -76.8177291</coordenadas>
+        <distrito>CIENEGUILLA</distrito>
+        <horario>08.00 - 20.00</horario>
+    </centro>
+    <centro id="54">
+        <id>54</id>
+        <nombre>PUESTO DE SALUD SANTA TERESA DE CHORRILLOS</nombre>
+        <categoria>I-2</categoria>
+        <telefono>978778249</telefono>
+        <coordenadas>-12.1870625, -77.0175625</coordenadas>
+        <distrito>CHORRILLOS</distrito>
+        <horario>8:00 - 14:00</horario>
+    </centro>
+    <centro id="55">
+        <id>55</id>
+        <nombre>PUESTO DE SALUD DE PUNTA HERMOSA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2307054</telefono>
+        <coordenadas>-12.302735, -76.7830867</coordenadas>
+        <distrito>PUNTA HERMOSA</distrito>
+        <horario>08:00 A 14:00 L-S</horario>
+    </centro>
+    <centro id="56">
+        <id>56</id>
+        <nombre>PUESTO DE SALUD SANTA ISABEL DE VILLA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2485736</telefono>
+        <coordenadas>-12.200616, -76.9782823</coordenadas>
+        <distrito>CHORRILLOS</distrito>
+        <horario>8:00 - 14:00</horario>
+    </centro>
+    <centro id="57">
+        <id>57</id>
+        <nombre>PUESTO DE SALUD JUAN CARLOS SOBERON</nombre>
+        <categoria>I-2</categoria>
+        <telefono>992424518</telefono>
+        <coordenadas>-12.1269655, -76.93046819999999</coordenadas>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>08:00 - 14:00</horario>
+    </centro>
+    <centro id="58">
+        <id>58</id>
+        <nombre>CENTRO DE SALUD JESUS PODEROSO</nombre>
+        <categoria>I-3</categoria>
+        <telefono>01-4502516</telefono>
+        <coordenadas>-12.1485135, -76.9816665</coordenadas>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>L-S: 08:00-20:00</horario>
+    </centro>
+    <centro id="59">
+        <id>59</id>
+        <nombre>PUESTO DE SALUD PARAISO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>997312692</telefono>
+        <coordenadas>-12.1857908, -76.956902</coordenadas>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>8:00-14:00</horario>
+    </centro>
+    <centro id="60">
+        <id>60</id>
+        <nombre>PUESTO DE SALUD CIUDAD DE GOSEN</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2932123</telefono>
+        <coordenadas>-12.2138167, -76.9206267</coordenadas>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>8:00-14:00</horario>
+    </centro>
+ <centro id="61">
+        <id>61</id>
+        <nombre>CENTRO MATERNO INFANTIL DANIEL ALCIDES CARRION</nombre>
+        <categoria>I-4</categoria>
+        <telefono>01-4505684</telefono>
+        <coordenadas>-12.177933, -76.9454915</coordenadas>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>08:00-14:00</horario>
+    </centro>
+    <centro id="62">
+        <id>62</id>
+        <nombre>CENTRO DE SALUD VILLA ALEJANDRO</nombre>
+        <categoria>I-3</categoria>
+        <telefono>2935539</telefono>
+        <coordenadas>-12.23584, -76.9102852</coordenadas>
+        <distrito>LURIN</distrito>
+        <horario>12 HRS / 08:00 A 20:00</horario>
+    </centro>
+    <centro id="63">
+        <id>63</id>
+        <nombre>CENTRO DE SALUD MENTAL COMUNITARIO LA MEDALLA MILAGROSA</nombre>
+        <categoria>I-3</categoria>
+        <telefono>999037894</telefono>
+        <coordenadas>-12.1281347, -76.8711223</coordenadas>
+        <distrito>PACHACAMAC</distrito>
+        <horario>08 AM - 20 HORAS</horario>
+    </centro>
+    <centro id="64">
+        <id>64</id>
+        <nombre>CENTRO MATERNO INFANTIL BUENOS AIRES DE VILLA</nombre>
+        <categoria>I-4</categoria>
+        <telefono>2583948</telefono>
+        <coordenadas>-12.165972, -77.020482</coordenadas>
+        <distrito>CHORRILLOS</distrito>
+        <horario>24 HORAS</horario>
+    </centro>
+    <centro id="65">
+        <id>65</id>
+        <nombre>PUESTO DE SALUD HÉROES DEL PACIFICO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-4500962</telefono>
+        <coordenadas>-12.1742984, -76.9572629</coordenadas>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>8:00-14:00</horario>
+    </centro>
+    <centro id="66">
+        <id>66</id>
+        <nombre>PUESTO DE SALUD PAMPAS DE SAN JUAN</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-4508370</telefono>
+        <coordenadas>-12.1668662, -76.9658395</coordenadas>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>8:00-14:00</horario>
+    </centro>
+    <centro id="67">
+        <id>67</id>
+        <nombre>PUESTO DE SALUD VILLA MERCEDES</nombre>
+        <categoria>I-2</categoria>
+        <telefono>(51)930538230</telefono>
+        <coordenadas>-12.3899396, -76.7726592</coordenadas>
+        <distrito>SANTA MARIA DEL MAR</distrito>
+        <horario>08:00 - 14:00 L - S</horario>
+    </centro>
+    <centro id="68">
+        <id>68</id>
+        <nombre>CMI MANUEL BARRETO</nombre>
+        <categoria>I-4</categoria>
+        <telefono>(51) 1-4663649</telefono>
+        <coordenadas>-12.1525223, -76.9686591</coordenadas>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>24 HORAS</horario>
+    </centro>
+    <centro id="69">
+        <id>69</id>
+        <nombre>PUESTO DE SALUD SASBI</nombre>
+        <categoria>I-2</categoria>
+        <telefono>1-5708505</telefono>
+        <coordenadas>-12.2083713, -76.9545898</coordenadas>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <horario>08:14:00 L-S</horario>
+    </centro>
+    <centro id="70">
+        <id>70</id>
+        <nombre>COLCA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>(51) 1-4798751</telefono>
+        <coordenadas>-12.104228, -76.8013053</coordenadas>
+        <distrito>CIENEGUILLA</distrito>
+        <horario>08:00 - 14:00</horario>
+    </centro>
+    <centro id="71">
+        <id>71</id>
+        <nombre>PUESTO DE SALUD MARIANNE PREUSS DE STARK</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2851020</telefono>
+        <coordenadas>-12.1468574, -76.962498</coordenadas>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>8:00 - 14:00</horario>
+    </centro>
+    <centro id="72">
+        <id>72</id>
+        <nombre>PUESTO DE SALUD PACHACAMAC</nombre>
+        <categoria>I-2</categoria>
+        <telefono>2880509</telefono>
+        <coordenadas>-12.2242314, -76.9210387</coordenadas>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <horario>LUNES A SABADO:08:00</horario>
+    </centro>
+    <centro id="73">
+        <id>73</id>
+        <nombre>PUESTO DE SALUD LAS DUNAS</nombre>
+        <categoria>I-2</categoria>
+        <telefono>(51) 1-7150925</telefono>
+        <coordenadas>-12.1666279, -76.9845127</coordenadas>
+        <distrito>SANTIAGO DE SURCO</distrito>
+        <horario>8:00 - 14:00</horario>
+    </centro>
+    <centro id="74">
+        <id>74</id>
+        <nombre>PUESTO DE SALUD BRISAS DE PACHACAMAC</nombre>
+        <categoria>I-2</categoria>
+        <telefono>7152638</telefono>
+        <coordenadas>-12.2160493, -76.9416789</coordenadas>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <horario>08:00 - 14:00 L-S</horario>
+    </centro>
+    <centro id="75">
+        <id>75</id>
+        <nombre>PUESTO DE SALUD VIRGEN DEL BUEN PASO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2855967</telefono>
+        <coordenadas>-12.1418223, -76.9621309</coordenadas>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>8:00-14:00</horario>
+    </centro>
+    <centro id="76">
+        <id>76</id>
+        <nombre>PUESTO DE SALUD EL BRILLANTE</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2674570</telefono>
+        <coordenadas>-12.1474598, -76.9688233</coordenadas>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>8:00-14:00</horario>
+    </centro>
+    <centro id="77">
+        <id>77</id>
+        <nombre>CENTRO DE SALUD TRÉBOL AZUL</nombre>
+        <categoria>I-3</categoria>
+        <telefono>01-2762502</telefono>
+        <coordenadas>-12.1776378, -76.965839</coordenadas>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>8:00-08:00</horario>
+    </centro>
+    <centro id="78">
+        <id>78</id>
+        <nombre>PUESTO DE SALUD VIRGEN DE LOURDES</nombre>
+        <categoria>I-2</categoria>
+        <telefono>987469118</telefono>
+        <coordenadas>-12.1674079, -76.9190612</coordenadas>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>8:00-14:00 (L-S)</horario>
+    </centro>
+    <centro id="79">
+        <id>79</id>
+        <nombre>PUESTO DE SALUD LA RINCONADA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>1-2854570</telefono>
+        <coordenadas>-12.1265944, -76.9594086</coordenadas>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>8:00-14:00</horario>
+    </centro>
+    <centro id="80">
+        <id>80</id>
+        <nombre>PUESTO DE SALUD MICAELA BASTIDAS</nombre>
+        <categoria>I-2</categoria>
+        <telefono>945241719</telefono>
+        <coordenadas>-12.1725356, -76.949937</coordenadas>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>8:00-14:00</horario>
+    </centro>
+    <centro id="81">
+        <id>81</id>
+        <nombre>PUESTO DE SALUD SANTA URSULA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>988381846</telefono>
+        <coordenadas>-12.18102, -76.963999</coordenadas>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>7:00-14:00 L-S</horario>
+    </centro>
+    <centro id="82">
+        <id>82</id>
+        <nombre>PUESTO DE SALUD TORRES DE MELGAR</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2929682</telefono>
+        <coordenadas>-12.1840397, -76.9512014</coordenadas>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>8:00-14:00</horario>
+    </centro>
+    <centro id="83">
+        <id>83</id>
+        <nombre>CENTRO DE SALUD HEROES DEL CENEPA</nombre>
+        <categoria>I-3</categoria>
+        <telefono>7838778</telefono>
+        <coordenadas>-12.2487567, -76.9306828</coordenadas>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <horario>08:00 - 14:00 l-s</horario>
+    </centro>
+    <centro id="84">
+        <id>84</id>
+        <nombre>CENTRO MATERNO INFANTIL DE SALUD - "VIRGEN DEL CARMEN"</nombre>
+        <categoria>I-4</categoria>
+        <telefono>01-2513635</telefono>
+        <coordenadas>-12.165972, -77.020482</coordenadas>
+        <distrito>CHORRILLOS</distrito>
+        <horario>24 HORAS</horario>
+    </centro>
+     <centro id="85">
+        <id>85</id>
+        <nombre>PUESTO DE SALUD "VILLA SOLIDARIDAD"</nombre>
+        <categoria>I-2</categoria>
+        <telefono>014508371</telefono>
+        <coordenadas>-12.167724, -76.9592065</coordenadas>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>8:00-14:00</horario>
+    </centro>
+    <centro id="86">
+        <id>86</id>
+        <nombre>PUESTO DE SALUD BUENOS AIRES</nombre>
+        <categoria>I-2</categoria>
+        <telefono>2672698</telefono>
+        <coordenadas>-12.1477081, -76.9549933</coordenadas>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>8:00-14:00 HORAS</horario>
+    </centro>
+    <centro id="87">
+        <id>87</id>
+        <nombre>PUESTO DE SALUD SAN CARLOS</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2473112</telefono>
+        <coordenadas>-12.1844913, -77.0095028</coordenadas>
+        <distrito>SANTIAGO DE SURCO</distrito>
+        <horario>8:00 - 14:00</horario>
+    </centro>
+    <centro id="88">
+        <id>88</id>
+        <nombre>HUAYCAN DE CIENEGUILLA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>4799295</telefono>
+        <coordenadas>-12.077000014227087, -76.73679981312972</coordenadas>
+        <distrito>CIENEGUILLA</distrito>
+        <horario>08:00 - 14:00</horario>
+    </centro>
+    <centro id="89">
+        <id>89</id>
+        <nombre>CLAS JULIO C TELLO</nombre>
+        <categoria>I-3</categoria>
+        <telefono>988764576</telefono>
+        <coordenadas>-12.2513499, -76.8991284</coordenadas>
+        <distrito>LURIN</distrito>
+        <horario>08:00 - 20:00 L-S</horario>
+    </centro>
+    <centro id="90">
+        <id>90</id>
+        <nombre>PUESTO DE SALUD QUEBRADA VERDE</nombre>
+        <categoria>I-2</categoria>
+        <telefono>982561343</telefono>
+        <coordenadas>-12.2104044, -76.876871</coordenadas>
+        <distrito>PACHACAMAC</distrito>
+        <horario>08:00 A 14:00 L-S</horario>
+    </centro>
+    <centro id="91">
+        <id>91</id>
+        <nombre>PUESTO DE SALUD BUENA VISTA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>3673271</telefono>
+        <coordenadas>-12.2567698, -76.8750715</coordenadas>
+        <distrito>LURIN</distrito>
+        <horario>08:00 - 14:00</horario>
+    </centro>
+    <centro id="92">
+        <id>92</id>
+        <nombre>PUESTO DE SALUD PARQUES DE MANCHAY</nombre>
+        <categoria>I-2</categoria>
+        <telefono>977478442</telefono>
+        <coordenadas>-12.166667, -76.866666</coordenadas>
+        <distrito>PACHACAMAC</distrito>
+        <horario>08:00-14:00 L-S</horario>
+    </centro>
+    <centro id="93">
+        <id>93</id>
+        <nombre>PUESTO DE SALUD LEONCIO PRADO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>(51) 1-2857156</telefono>
+        <coordenadas>-12.1367202, -76.9613676</coordenadas>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>8:00-14:00</horario>
+    </centro>
+     <centro id="94">
+        <id>94</id>
+        <nombre>CENTRO DE SALUD NUEVA ESPERANZA</nombre>
+        <categoria>I-3</categoria>
+        <telefono>(51) 1-2913152</telefono>
+        <coordenadas>-12.1730408, -76.9338776</coordenadas>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>8:00-20:00</horario>
+    </centro>
+    <centro id="95">
+        <id>95</id>
+        <nombre>CENTRO DE SALUD GUSTAVO LANATTA LUJAN</nombre>
+        <categoria>I-3</categoria>
+        <telefono>01-2515217</telefono>
+        <coordenadas>-12.1693392, -77.0241912</coordenadas>
+        <distrito>CHORRILLOS</distrito>
+        <horario>8:00 - 20:00</horario>
+    </centro>
+    <centro id="96">
+        <id>96</id>
+        <nombre>PUESTO DE SALUD VILLA LIMATAMBO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2831355</telefono>
+        <coordenadas>-12.1346377, -76.9420848</coordenadas>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>8:00-14:00 HORAS</horario>
+    </centro>
+    <centro id="97">
+        <id>97</id>
+        <nombre>CENTRO DE SALUD VILLA SAN LUIS</nombre>
+        <categoria>I-3</categoria>
+        <telefono>01-2674616</telefono>
+        <coordenadas>-12.1425757, -76.9709229</coordenadas>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>8:00-20:00</horario>
+    </centro>
+    <centro id="98">
+        <id>98</id>
+        <nombre>PUESTO DE SALUD RICARDO PALMA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>2929224</telefono>
+        <coordenadas>-12.1859081, -76.9640241</coordenadas>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>8:00-14:00</horario>
+    </centro>
+    <centro id="99">
+        <id>99</id>
+        <nombre>CENTRO DE SALUD MENTAL COMUNITARIO SAN SEBASTIAN</nombre>
+        <categoria>I-3</categoria>
+        <telefono>972185015</telefono>
+        <coordenadas>-12.1592818, -77.0200242</coordenadas>
+        <distrito>CHORRILLOS</distrito>
+        <horario>8:00 a 20:00</horario>
+    </centro>
+    <centro id="100">
+        <id>100</id>
+        <nombre>PUESTO DE SALUD VALLE BAJO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2835943</telefono>
+        <coordenadas>-12.1497246, -76.9427893</coordenadas>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>8:00-14:00</horario>
+    </centro>
+    <centro id="101">
+        <id>101</id>
+        <nombre>PUESTO DE SALUD LAS FLORES</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-4366962</telefono>
+        <coordenadas>-12.1077606, -76.9748443</coordenadas>
+        <distrito>SANTIAGO DE SURCO</distrito>
+        <horario>8:00 - 14:00</horario>
+    </centro>
+    <centro id="102">
+        <id>102</id>
+        <nombre>PUESTO DE SALUD LOS INCAS</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2497673</telefono>
+        <coordenadas>-12.2014315, -77.0179431</coordenadas>
+        <distrito>CHORRILLOS</distrito>
+        <horario>8:00 - 14:00</horario>
+    </centro>
+    <centro id="103">
+        <id>103</id>
+        <nombre>NUEVA GALES</nombre>
+        <categoria>I-2</categoria>
+        <telefono>949966580</telefono>
+        <coordenadas>-12.0798588, -76.8745386</coordenadas>
+        <distrito>CIENEGUILLA</distrito>
+        <horario>07:00 - 13:30</horario>
+    </centro>
+    <centro id="104">
+        <id>104</id>
+        <nombre>CENTRO MATERNO INFANTIL JOSE CARLOS MARIATEGUI</nombre>
+        <categoria>I-4</categoria>
+        <telefono>01-2835782</telefono>
+        <coordenadas>-12.1417773, -76.9526066</coordenadas>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>24 HORAS</horario>
+    </centro>
+    <centro id="105">
+        <id>105</id>
+        <nombre>PUESTO DE SALUD PARAISO ALTO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>998839993</telefono>
+        <coordenadas>-12.1857908, -76.956902</coordenadas>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>8:00-14:00</horario>
+    </centro>
+    <centro id="106">
+        <id>106</id>
+        <nombre>PUESTO DE SALUD GUAYABO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>947144437</telefono>
+        <coordenadas>-12.1989397, -76.8733292</coordenadas>
+        <distrito>PACHACAMAC</distrito>
+        <horario>8:00-14:00</horario>
+    </centro>
+    <centro id="107">
+        <id>107</id>
+        <nombre>PUESTO DE SALUD LADERAS DE VILLA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>012927129</telefono>
+        <coordenadas>-12.1898195, -76.957621</coordenadas>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>8:00-14:00</horario>
+    </centro>
+    <centro id="108">
+        <id>108</id>
+        <nombre>PUESTO DE SALUD "SEÑOR DE LOS MILAGROS"</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-5607513</telefono>
+        <coordenadas>-12.2027706, -76.9516267</coordenadas>
+        <distrito> VILLA EL SALVADOR</distrito>
+        <horario>06 HORAS / 08:00 L-S</horario>
+    </centro>
+    <centro id="109">
+        <id>109</id>
+        <nombre>CENTRO MATERNO INFANTIL TABLADA DE LURIN</nombre>
+        <categoria>I-4</categoria>
+        <telefono>01-2952021</telefono>
+        <coordenadas>-12.1914125, -76.9273043</coordenadas>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>24 HORAS</horario>
+    </centro>
+    <centro id="110">
+        <id>110</id>
+        <nombre>PUESTO DE SALUD ARMATAMBO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>012518251</telefono>
+        <coordenadas>-12.1760478, -77.0227988</coordenadas>
+        <distrito>CHORRILLOS</distrito>
+        <horario>8:00 - 14:00</horario>
+    </centro>
+    <centro id="111">
+        <id>111</id>
+        <nombre>CENTRO DE SALUD CLAS JUAN PABLO II</nombre>
+        <categoria>I-3</categoria>
+        <telefono>01-3574260</telefono>
+        <coordenadas>-12.1095994, -76.8623769</coordenadas>
+        <distrito>PACHACAMAC</distrito>
+        <horario>08:00-20:00 L-S</horario>
+    </centro>
+    <centro id="112">
+        <id>112</id>
+        <nombre>PUESTO DE SALUD CLAS VILLA LIBERTAD</nombre>
+        <categoria>I-2</categoria>
+        <telefono>1-2311798, 999608015</telefono>
+        <coordenadas>-12.2239611, -76.9212538</coordenadas>
+        <distrito>LURIN</distrito>
+        <horario>08:00 - 14:00 L - S</horario>
+    </centro>
+    <centro id="113">
+        <id>113</id>
+        <nombre>CENTRO DE SALUD TUPAC AMARU DE VILLA</nombre>
+        <categoria>I-3</categoria>
+        <telefono>979017855</telefono>
+        <coordenadas>-12.1936917, -76.9818332</coordenadas>
+        <distrito>CHORRILLOS</distrito>
+        <horario>LUNES A SABADO 8:00</horario>
+    </centro>
+    <centro id="114">
+        <id>114</id>
+        <nombre>PUESTO DE SALUD VALLE ALTO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2602089</telefono>
+        <coordenadas>-12.1418135, -76.9384924</coordenadas>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>8:00-14:00 HORAS</horario>
+    </centro>
+    <centro id="115">
+        <id>115</id>
+        <nombre>PUESTO DE SALUD SAN JUAN DE LA LIBERTAD</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2585665</telefono>
+        <coordenadas>-12.1908311, -76.9868606</coordenadas>
+        <distrito>CHORRILLOS</distrito>
+        <horario>8:00 - 14:00</horario>
+    </centro>
+    <centro id="116">
+        <id>116</id>
+        <nombre>CENTRO DE SALUD SANTIAGO DE SURCO</nombre>
+        <categoria>I-3</categoria>
+        <telefono>;2479043</telefono>
+        <coordenadas>-12.1472428, -77.0062174</coordenadas>
+        <distrito>SANTIAGO DE SURCO</distrito>
+        <horario>7:00 - 19:00</horario>
+    </centro>
+    <centro id="117">
+        <id>117</id>
+        <nombre>PUESTO DE SALUD SANTA ROSA DE BELEN</nombre>
+        <categoria>I-2</categoria>
+        <telefono>012672117</telefono>
+        <coordenadas>-12.1582504, -76.9504775</coordenadas>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>8:00-14:00 HORAS</horario>
+    </centro>
+    <centro id="118">
+        <id>118</id>
+        <nombre>CENTRO DE SALUD SAN GENARO DE VILLA</nombre>
+        <categoria>I-4</categoria>
+        <telefono>01-7152950</telefono>
+        <coordenadas>-12.1940041, -77.0210264</coordenadas>
+        <distrito>CHORRILLOS</distrito>
+        <horario>24 HORAS</horario>
+    </centro>
+    <centro id="119">
+        <id>119</id>
+        <nombre>CENTRO DE SALUD MENTAL COMUNITARIO BALNEARIOS DEL SUR</nombre>
+        <categoria>I-3</categoria>
+        <telefono>998952044</telefono>
+        <coordenadas>-12.3338304, -76.8231935</coordenadas>
+        <distrito>PUNTA HERMOSA</distrito>
+        <horario>7:00 - 19:00</horario>
+    </centro>
+    <centro id="120">
+        <id>120</id>
+        <nombre>CENTRO DE SALUD MENTAL COMUNITARIO VILLA EL SALVADOR</nombre>
+        <categoria>I-3</categoria>
+        <telefono>941707719</telefono>
+        <coordenadas>-12.2178475, -76.9492222</coordenadas>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <horario>8:00 - 20:00</horario>
+    </centro>
+    <centro id="121">
+        <id>121</id>
+        <nombre>CENTRO DE SALUD MENTAL COMUNITARIO NANCY REYES BAHAMONDE</nombre>
+        <categoria>I-3</categoria>
+        <telefono>941932582</telefono>
+        <coordenadas>-12.191957, -77.0096365</coordenadas>
+        <distrito>CHORRILLOS</distrito>
+        <horario>8:00 - 14:00</horario>
+    </centro>
+    <centro id="122">
+        <id>122</id>
+        <nombre>CENTRO DE SALUD PORTADA DE MANCHAY</nombre>
+        <categoria>I-3</categoria>
+        <telefono>3456410</telefono>
+        <coordenadas>-12.088876, -76.8818815</coordenadas>
+        <distrito>PACHACAMAC</distrito>
+        <horario>24 HRS</horario>
+    </centro>
+    <centro id="123">
+        <id>123</id>
+        <nombre>CENTRO DE SALUD BENJAMIN DOIG</nombre>
+        <categoria>I-3</categoria>
+        <telefono>3675013</telefono>
+        <coordenadas>-12.463372077062093, -76.73287407532773</coordenadas>
+        <distrito>PUCUSANA</distrito>
+        <horario>08:00 A 20:00</horario>
+    </centro>
+    <centro id="124">
+        <id>124</id>
+        <nombre>CENTRO DE SALUD PUCUSANA</nombre>
+        <categoria>I-3</categoria>
+        <telefono>3676079</telefono>
+        <coordenadas>-12.4829065, -76.796182</coordenadas>
+        <distrito>PUCUSANA</distrito>
+        <horario>24 HORAS</horario>
+    </centro>
+     <centro id="125">
+        <id>125</id>
+        <nombre>PUESTO DE SALUD HUERTOS DE MANCHAY</nombre>
+        <categoria>I-2</categoria>
+        <telefono>013455248</telefono>
+        <coordenadas>-12.1166681, -76.8700467</coordenadas>
+        <distrito>PACHACAMAC</distrito>
+        <horario>8:00-14:00</horario>
+    </centro>
+    <centro id="126">
+        <id>126</id>
+        <nombre>CENTRO DE SALUD PACHACAMAC</nombre>
+        <categoria>I-3</categoria>
+        <telefono>994619936</telefono>
+        <coordenadas>-12.228132, -76.8579957</coordenadas>
+        <distrito>PACHACAMAC</distrito>
+        <horario>24 HORAS</horario>
+    </centro>
+    <centro id="127">
+        <id>127</id>
+        <nombre>PUESTO DE SALUD OASIS DE VILLA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>999450507</telefono>
+        <coordenadas>-12.2383463, -76.9328853</coordenadas>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <horario>08:00 A 14:00 L-S</horario>
+    </centro>
+    <centro id="128">
+        <id>128</id>
+        <nombre>PUESTO DE SALUD EDILBERTO RAMOS</nombre>
+        <categoria>I-2</categoria>
+        <telefono>014932968</telefono>
+        <coordenadas>-12.2451835, -76.9273416</coordenadas>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <horario>8:00-14:00</horario>
+    </centro>
+    <centro id="129">
+        <id>129</id>
+        <nombre>PUESTO DE SALUD COLLANAC</nombre>
+        <categoria>I-2</categoria>
+        <telefono>997425471</telefono>
+        <coordenadas>-12.1269078, -76.8716641</coordenadas>
+        <distrito>PACHACAMAC</distrito>
+        <horario>LUNES A SABADO: 8:00</horario>
+    </centro>
+    <centro id="130">
+        <id>130</id>
+        <nombre>PUESTO DE SALUD PICAPIEDRA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>NO TIENE</telefono>
+        <coordenadas>-12.1874452, -76.8679399</coordenadas>
+        <distrito>PACHACAMAC</distrito>
+        <horario>06 HORAS / 08:00 A 1</horario>
+    </centro>
+    <centro id="131">
+        <id>131</id>
+        <nombre>CENTRO DE SALUD NUEVO LURIN - KM. 40</nombre>
+        <categoria>I-3</categoria>
+        <telefono>01-4302688</telefono>
+        <coordenadas>-12.2836862, -76.8569613</coordenadas>
+        <distrito>LURIN</distrito>
+        <horario>08:00 - 20:00</horario>
+    </centro>
+    <centro id="132">
+        <id>132</id>
+        <nombre>MANCHAY ALTO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>989860829</telefono>
+        <coordenadas>-12.1546194, -76.8503281</coordenadas>
+        <distrito>PACHACAMAC</distrito>
+        <horario>06 HORAS / 08:00 A 1</horario>
+    </centro>
+    <centro id="133">
+        <id>133</id>
+        <nombre>PUESTO DE SALUD VIRGEN DE LA ASUNCION</nombre>
+        <categoria>I-2</categoria>
+        <telefono>943715905</telefono>
+        <coordenadas>-12.2173543, -76.9292169</coordenadas>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <horario>07:00 - 19:00</horario>
+    </centro>
+    <centro id="134">
+        <id>100</id>
+        <nombre>PUESTO DE SALUD NUEVO PROGRESO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>(51) 1-2931995</telefono>
+        <coordenadas>-12.2210039, -76.9202808</coordenadas>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>8:00-14:00</horario>
+    </centro>
+</centros_medicos>

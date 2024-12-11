@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Página Principal</title>
+    <style>
+        body {
+            /* imagen de fondo */
+            background-image: url('img/panoramica.png');
+            background-size: cover; /* cubrir toda la pantalla */
+            background-position: center; 
+            filter: grayscale(50%); 
+            margin: 0; /* no márgenes */
+            height: 100vh; /* Altura de  ventana */
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center; 
+        }
+
+        .button {
+            display: block;
+            width: 90%;
+            max-width: 450px;
+            margin: 30px auto;
+            padding: 30px;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+        .button:nth-child(1) {
+            background-color: #28a745;
+        }
+        .button:nth-child(1):hover {
+            background-color: #218838;
+        }
+        .button:nth-child(2) {
+            background-color: #dc3545;
+        }
+        .button:nth-child(2):hover {
+            background-color: #c82333;
+        }
+        .button:nth-child(3) {
+            background-color: #292de8;
+        }
+        .button:nth-child(3):hover {
+            background-color: #292de8;
+        }
+        .button:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: rgba(44, 62, 80, 0.8); /* fondo semi-transparente */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <p id="propuesta">PROPUESTA DE MEJORA DE ACCESIBILIDAD A CENTROS DE SALUD</p>
+    <div class="container">
+        <a href="index1.html" class="button">ATENCIÓN MÉDICA DE NIVEL 1<br>(Postas Médicas, Policlinicos, Centros Médicos)</a>
+        <a href="index2.html" class="button">POSTAS MÉDICAS DE NIVEL 2 Y 3<br>(Hospitales de Lima)</a>
+        <a href="index3.html" class="button">INSTITUTOS ESPECIALIZADOS DE SALUD DE LIMA METROPOLITANA<br></a>
+    </div>
+</body>
+<footer>
+    <p>Autor: Percy G. Soto Huerto</p>
+    <p class="proyecto">Proyecto de aplicación profesional</p>
+    <p>SENCICO 2024</p>
+</footer>
+</html>
