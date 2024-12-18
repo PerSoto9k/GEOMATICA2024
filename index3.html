@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa de Institutos Especializados de Lima Metropolitana</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet-omnivore@latest/leaflet-omnivore.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.draw/dist/leaflet.draw.css" />
+    <script src="https://unpkg.com/leaflet.draw/dist/leaflet.draw.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=TU_API_KEY_DE_GOOGLE&callback=initMap" async defer></script>
+
+
+</head>
+
+<body>
+    <p id="propuesta">PROPUESTA DE MEJORA DE ACCESIBILIDAD A CENTROS DE SALUD</p>
+    <h1>Institutos Especializados de Lima Metropolitana</h1>
+    <h5>Para más información consulta la tabla de Institutos de Salud Especializados en la parte inferior de la página.</h5>
+    <div id="mi_mapa">
+        <div id="distritosMessage" class="popup-m">DISTRITOS DE LIMA SUR</div>
+    </div>
+    <a href="index.html" class="retorno">REGRESAR A NIVELES</a>    
+    <div><button id="verTablaBtn">VER RELACIÓN DE INSTITUTOS DE SALUD</button></div>
+    <div id="ordenacionButtons" style="display: flex; justify-content: space-between; margin: 30px 30px;">
+        <button id="ordenarNombre" class="ordenar-btn">ORDENAR POR NOMBRE</button>
+    </div>     
+
+    <div id="tabla-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Categoría</th>
+                    <th>Horario</th> 
+                    <th>Dirección</th> 
+                    <th>Distrito</th>                      
+                    <th>Teléfono</th>
+                    <th>Coordenadas</th> 
+                </tr>
+            </thead>
+            <tbody id="tablaBody">
+                <!-- filas se agregarán aca -->
+            </tbody>
+        </table>
+    </div>
+
+    <footer>
+        <p>Autor: Percy G. Soto Huerto</p>
+        <p class="proyecto">Proyecto de aplicación profesional</p>
+        <p>SENCICO 2024</p>
+    </footer>
+    <script>
+        // Mapa centrado en Lima
+        const map = L.map('mi_mapa').setView([-12.0464, -77.0428], 11);
+    
+        // Capa base OpenStreetMap
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+    
+        // Obtener ubicación de usuario y mensaje de "¡Estás aquí!
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(
+                function (position) {
+                    const usuLat = position.coords.latitude;
+                    const usuLng = position.coords.longitude;
+    
+                    // mensaje de ubicación 
+                    const ubicacionDiv = document.getElementById('ubicacionFija');
+                    if (ubicacionDiv) {
+                        ubicacionDiv.style.display = 'block'; // Mostrar el mensaje
+                    }
+    
+                    // marcador en la ubicación del usuario
+                    L.marker([usuLat, usuLng]).addTo(map)
+                        .bindPopup('¡Estás aquí!').openPopup();
+                },
+                function (error) {
+                    console.error('Error al obtener ubicación: ', error.message);
+                    alert('No se pudo obtener tu ubicación: ' + error.message);
+                }
+            );
+        } else {
+            alert('La geolocalización no es compatible con este navegador.');
+        }
+    
+        const bounds = [
+        [-12.5, -77.5],  // Latitud y longitud inferior izquierda (suroeste)
+        [-11.5, -76.5]   // Latitud y longitud superior derecha (noreste)
+        ];
+        map.setMaxBounds(bounds); //  límites máximos del mapa
+
+        // nivel de zoom mínimo y máximo
+        map.setMinZoom(10); 
+        map.setMaxZoom(18);
+        
+
+         // Cargar institutos desde XML
+         fetch('proyxml3.xml')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Error al cargar el archivo XML');
+            }
+            return response.text();
+        })
+        .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+        .then(xml => {
+            const centrosMedicos = xml.getElementsByTagName('centro');
+            const tablaBody = document.getElementById('tablaBody');
+
+            const markerToRowMap = new Map();
+
+            Array.from(centrosMedicos).forEach(centro => {
+                const nombre = centro.getElementsByTagName('nombre')[0].textContent;
+                const categoria = centro.getElementsByTagName('categoria')[0].textContent;
+                const horario = centro.getElementsByTagName('horario')[0].textContent; 
+                const direccion = centro.getElementsByTagName('direccion')[0].textContent;                   
+                const distrito = centro.getElementsByTagName('distrito')[0].textContent;
+                const telefono = centro.getElementsByTagName('telefono')[0].textContent;
+                const coordenadas = centro.getElementsByTagName('coordenadas')[0].textContent.split(', ');
+
+                const lat = parseFloat(coordenadas[0]);
+                const lon = parseFloat(coordenadas[1]);
+
+                // Agregar marcador al mapa
+                const marker = L.marker([lat, lon]).addTo(map)
+                    .bindPopup(`<strong>${nombre}</strong><br>${direccion}<br><br>Telf: ${telefono}`);
+
+                // Agregar filas a la tabla
+                const fila = document.createElement('tr');
+                fila.innerHTML = `
+                    <td>${nombre}</td>
+                    <td>${categoria}</td>
+                    <td>${horario}</td> 
+                    <td>${direccion}</td>                       
+                    <td>${distrito}</td>
+                    <td>${telefono}</td>
+                    <td>${lat}, ${lon}</td>`; // coordenadas en  nueva columna
+                tablaBody.appendChild(fila);
+
+                // marcador a fila correspondiente
+                markerToRowMap.set(marker, fila);
+
+                // Resaltar fila cuando marcador clickeado
+                marker.on('click', () => {
+                    // Eliminar resaltado de todas las filas
+                    tablaBody.querySelectorAll('tr').forEach(row => {
+                        row.style.backgroundColor = ''; // Quitar color de fondo
+                    });
+
+                    // Resaltar fila correspondiente a marcador
+                    fila.style.backgroundColor = 'yellow'; // Agregar color amarillo
+                });
+            });
+        })
+        .catch(error => {
+            console.error('Error al cargar los datos de institutos: ', error);
+            alert('No se pudieron cargar los datos de institutos: ' + error.message);
+        });
+    
+    </script>
+    <script src="js/generaljs.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,1356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<centros_medicos>
+    <centro id="1">
+        <id>1</id>
+        <nombre>CENTRO MATERNO INFANTIL SAN JOSE, VILLA EL SALVADOR</nombre>
+        <categoria>I-4</categoria>
+        <telefono>01-2920104</telefono>
+        <direccion>Avenida Los ángeles s/n, sector 1, grupo 15, sector 1, grupo 15</direccion>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <horario>24 HORAS</horario>
+        <coordenadas>-12.1985268, -76.94612169999999</coordenadas>
+    </centro>
+    <centro id="2">
+        <id>2</id>
+        <nombre>PUESTO DE SALUD PAMPA GRANDE, PACHACAMAC</nombre>
+        <categoria>I-2</categoria>
+        <telefono>934451206</telefono>
+        <direccion>Avenida 07 de Junio-cpr Pampa Grande b s/n PACHACAMAC</direccion>
+        <distrito>PACHACAMAC</distrito>
+        <horario>06 HORAS / 08:00 A 1</horario>
+        <coordenadas>-12.2401868, -76.8710179</coordenadas>
+    </centro>
+    <centro id="3">
+        <id>3</id>
+        <nombre>PUESTO DE SALUD SAN ROQUE, SANTIAGO DE SURCO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>992883188</telefono>
+        <direccion>Esteban camere 378 - Urb San Roque sn Santiago de Surco</direccion>
+        <distrito>SANTIAGO DE SURCO</distrito>
+        <horario>8:00 - 14:00</horario>
+        <coordenadas>-12.1491478, -76.9889134</coordenadas>
+    </centro>
+    <centro id="4">
+        <id>4</id>
+        <nombre>PUESTO DE SALUD DAVID GUERRERO DUARTE, VILLA MARIA DEL TRIUNFO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2951826</telefono>
+        <direccion>Avenida av. los incas esq. Jr. Tupac Yupanqui 2do sector, VILLA MARIA DEL TRIUNFO</direccion>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>8:00-14:00</horario>
+        <coordenadas>-12.1842138, -76.92478899999999</coordenadas>
+    </centro>
+    <centro id="5">
+        <id>5</id>
+        <nombre>CENTRO DE SALUD PUNTA NEGRA, PUNTA NEGRA</nombre>
+        <categoria>I-3</categoria>
+        <telefono>920247797</telefono>
+        <direccion>Avenida Guayanay Norte - zona central mz  h-1 lt 6 av guayanay norte - zona central mz  h-1 lt 6 PUNTA NEGRA</direccion>
+        <distrito>PUNTA NEGRA</distrito>
+        <horario>12 HORAS / 08:00 A 2</horario>
+        <coordenadas>-12.3637386, -76.7959712</coordenadas>
+    </centro>
+    <centro id="6">
+        <id>6</id>
+        <nombre>CENTRO MATERNO INFANTIL LURIN, LURIN</nombre>
+        <categoria>I-4</categoria>
+        <telefono>4301000</telefono>
+        <direccion>Jirón jr. Grau nº 370 LURIN</direccion>
+        <distrito>LURIN</distrito>
+        <horario>24 HORAS</horario>
+        <coordenadas>-12.2722674, -76.8695552</coordenadas>
+    </centro>
+    <centro id="7">
+        <id>7</id>
+        <nombre>CENTRO DE SALUD LEONOR SAAVEDRA, SAN JUAN DE MIRAFLORES</nombre>
+        <categoria>I-3</categoria>
+        <telefono>01-4503113</telefono>
+        <direccion>Avenida Torres Paz cdra. 1 esq. cdra. 4 av. los héroes sn SAN JUAN DE MIRAFLORES</direccion>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>08-08 AM</horario>
+        <coordenadas>-12.1533771, -76.97238039999999</coordenadas>
+    </centro>
+    <centro id="8">
+        <id>8</id>
+        <nombre>PUESTO DE SALUD FERNANDO LUYO SIERRA, VILLA EL SALVADOR</nombre>
+        <categoria>I-2</categoria>
+        <telefono>986851662</telefono>
+        <direccion>Sector 7 grupo 1  s/n s/n sector 7 grupo 1  s/n VILLA EL SALVADOR</direccion>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <horario>08:00-14:00 L-S</horario>
+        <coordenadas>-12.2288205, -76.9426323</coordenadas>
+    </centro>
+    <centro id="9">
+        <id>9</id>
+        <nombre>TAMBO VIEJO, CIENEGUILLA</nombre>
+        <categoria>I-4</categoria>
+        <telefono>4798849</telefono>
+        <direccion>Avenida Manco Capac s/n - zona a - Tambo Viejo-cieneguilla s/n CIENEGUILLA</direccion>
+        <distrito>CIENEGUILLA</distrito>
+        <horario>24 HORAS</horario>
+        <coordenadas>-12.1150514, -76.8096871</coordenadas>
+    </centro>
+
+    <centro id="10">
+        <id>10</id>
+        <nombre>CENTRO DE SALUD MENTAL COMUNITARIO SAN GABRIEL ALTO</nombre>
+        <categoria>I-3</categoria>
+        <telefono>01-2830482</telefono>
+        <direccion>Pueblo Joven José Carlos Mariátegui Mz Spco Lote Tpa Etapa Sexta Sector San Gabriel, Villa María del Triunfo, Lima</direccion>
+        <distrito>Villa María del Triunfo</distrito>
+        <horario>8:00-20:00 horas</horario>
+        <coordenadas>-12.13655, -76.9480463</coordenadas>
+    </centro>
+    <centro id="11">
+        <id>11</id>
+        <nombre>PUESTO DE SALUD SANTA ROSA LAS CONCHITAS</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2671457</telefono>        
+        <direccion>AA.HH. Santa Rosa de las Conchitas Mz L Lote 18, Villa María del Triunfo, Lima</direccion>
+        <distrito>Villa María del Triunfo</distrito>
+        <horario>8:00-14:00 horas</horario>
+        <coordenadas>-12.2024572, -76.9258326</coordenadas>
+    </centro>
+    <centro id="12">
+        <id>12</id>
+        <nombre>PUESTO DE SALUD NUEVA ESPERANZA ALTA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2914478</telefono>        
+        <direccion>Av. R. Merino y Tacna Mz 9 Lt 1B Comité 8B Nueva Esperanza Alta, Villa María del Triunfo, Lima</direccion>
+        <distrito>Villa María del Triunfo</distrito>
+        <horario>8:00-14:00 horas</horario>
+        <coordenadas>-12.1793845, -76.9364136</coordenadas>
+    </centro>
+    <centro id="13">
+        <id>13</id>
+        <nombre>PUESTO DE SALUD CESAR VALLEJO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>3139652</telefono>
+        <direccion>Cruce Trilce y Comercio Par 7, Villa María del Triunfo, Lima</direccion>
+        <distrito>Villa María del Triunfo</distrito>
+        <horario>8:00-14:00 horas</horario>
+        <coordenadas>-12.1870807, -76.9371942</coordenadas>
+    </centro>
+    <centro id="14">
+        <id>14</id>
+        <nombre>CENTRO DE SALUD MENTAL COMUNITARIO 12 DE NOVIEMBRE</nombre>
+        <categoria>I-3</categoria>
+        <telefono>4506060</telefono>
+        <direccion>Avenida Las Américas Piso 2 S/N, San Juan de Miraflores, Lima</direccion>
+        <distrito>San Juan de Miraflores</distrito>
+        <horario>07:00 - 19:00</horario>
+        <coordenadas>-12.1375471, -76.968281</coordenadas>
+    </centro>
+    <centro id="15">
+        <id>15</id>
+        <nombre>PUESTO DE SALUD CARDAL</nombre>
+        <categoria>I-2</categoria>
+        <telefono>996055626</telefono>
+        <direccion>Centro Poblado Rural Cardal, Pachacamac, Lima</direccion>
+        <distrito>Pachacamac</distrito>
+        <horario>06 horas / 08:00 a 14:00</horario>
+        <coordenadas>-12.1812589, -76.8512922</coordenadas>
+    </centro>
+    <centro id="16">
+        <id>16</id>
+        <nombre>CENTRO DE SALUD MENTAL COMUNITARIO CRL. SAN WILELMO PEDRO ZORILLA HUAMAN</nombre>
+        <categoria>I-3</categoria>
+        <telefono>014793341</telefono>
+        <direccion>Jirón General Buendía 503, Villa Militar Oeste, Chorrillos, Lima</direccion>
+        <distrito>Chorrillos</distrito>
+        <horario>7:00 - 19:00</horario>
+        <coordenadas>-12.1592818, -77.0200242</coordenadas>
+    </centro>
+    <centro id="17">
+        <id>17</id>
+        <nombre>CENTRO DE SALUD MENTAL COMUNITARIO MONSEÑOR JOSE RAMON GURRUCHAGA</nombre>
+        <categoria>I-3</categoria>
+        <telefono>947273819</telefono>
+        <direccion>Avenida Santa Rosa 900, al costado del albergue de los ancianos, Villa Marina, Villa María del Triunfo, Lima</direccion>
+        <distrito>Villa María del Triunfo</distrito>
+        <horario>7:00 - 19:00</horario>
+        <coordenadas>-12.1937558, -76.919051</coordenadas>
+    </centro>
+    <centro id="18">
+        <id>18</id>
+        <nombre>PUESTO DE SALUD SARITA COLONIA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>012880014</telefono>
+        <direccion>Parque Central St. 2 Gr. 24, Villa El Salvador, Lima</direccion>
+        <distrito>Villa El Salvador</distrito>
+        <horario>08:00 a 14:00 L-S</horario>
+        <coordenadas>-12.2132581, -76.9446134</coordenadas>
+    </centro>
+    <centro id="19">
+        <id>19</id>
+        <nombre>PUESTO DE SALUD 5 DE MAYO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2853628</telefono>
+        <direccion>Jirón Jr. Libertad Mz.A6-Lote 28-Sector 5 de Mayo-Pampolona Alta, San Juan de Miraflores, Lima</direccion>
+        <distrito>San Juan de Miraflores</distrito>
+        <horario>8:00-14:00</horario>
+        <coordenadas>-12.1324082, -76.9626484</coordenadas>
+    </centro>
+    <centro id="20">
+        <id>20</id>
+        <nombre>PUESTO DE SALUD SAN FRANCISCO DE LA CRUZ</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2854219</telefono>
+        <direccion>PROLONGACIÓN CANEVARO, SAN FRANCISCO DE LA CRUZ-PAMPLONA ALTA</direccion>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>8:00-14:00 (L-S)</horario>
+        <coordenadas>-12.151813, -76.9633458</coordenadas>
+    </centro>
+    <centro id="21">
+        <id>21</id>
+        <nombre>CENTRO MATERNO INFANTIL CESAR LOPEZ SILVA</nombre>
+        <categoria>I-4</categoria>
+        <telefono>01-2687738</telefono>
+        <direccion>SECTOR IV MZ B1 LT S/N, 1RA. ETAPA URB. PACHACAMAC</direccion>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <horario>24 HRS</horario>
+        <coordenadas>-12.2303179, -76.9236796</coordenadas>
+    </centro>
+    <centro id="22">
+        <id>22</id>
+        <nombre>PUESTO DE SALUD PRINCIPE DE ASTURIAS</nombre>
+        <categoria>I-2</categoria>
+        <telefono>2933917</telefono>
+        <direccion>AA.HH. PRINCIPE DE ASTURIAS, 1RA. ETAPA DE PACHACAMAC</direccion>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <horario>08:00 - 14:00</horario>
+        <coordenadas>-12.2303943, -76.91134</coordenadas>
+    </centro>
+    <centro id="23">
+        <id>23</id>
+        <nombre>CENTRO MATERNO INFANTIL JOSE GALVEZ</nombre>
+        <categoria>I-4</categoria>
+        <telefono>01-2932609</telefono>
+        <direccion>CRUCE CALLE ARICA CON AGRICULTURA</direccion>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>24 HORAS</horario>
+        <coordenadas>-12.2103466, -76.90794369999999</coordenadas>
+    </centro>
+    <centro id="24">
+        <id>24</id>
+        <nombre>CENTRO MATERNO INFANTIL OLLANTAY</nombre>
+        <categoria>I-4</categoria>
+        <telefono>01-2851295</telefono>
+        <direccion>AV. PROLONGACIÓN GABRIEL TORRES, PAMPLONA ALTA</direccion>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>24 HORAS</horario>
+        <coordenadas>-12.1356219, -76.963465</coordenadas>
+    </centro>
+    <centro id="25">
+        <id>25</id>
+        <nombre>CENTRO DE EMERGENCIAS SAN PEDRO DE LOS CHORRILLOS</nombre>
+        <categoria>I-4</categoria>
+        <telefono>(51) 1-2518442</telefono>
+        <direccion>FERROCARRIL, CHORRILLOS</direccion>
+        <distrito>CHORRILLOS</distrito>
+        <horario>TODOS LOS DIAS :24 H</horario>
+        <coordenadas>-12.1665516, -77.02363</coordenadas>
+    </centro>
+    <centro id="26">
+        <id>26</id>
+        <nombre>PUESTO DE SALUD MATEO PUMACAHUA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-5761809</telefono>
+        <direccion>AV. MATEO PUMACAHUA, MZ T, SECTOR 01</direccion>
+        <distrito>CHORRILLOS</distrito>
+        <horario>08:00 - 14:00</horario>
+        <coordenadas>-12.1916117, -76.98086769999999</coordenadas>
+    </centro>
+    <centro id="27">
+        <id>27</id>
+        <nombre>CENTRO DE SALUD MENTAL COMUNITARIO VIRGEN DE LA MERCED</nombre>
+        <categoria>I-3</categoria>
+        <telefono>986221760</telefono>
+        <direccion>Edilberto Ramos, Grupo 1, Mz. M, Sector 10, Media Cuadra de Av. Universitaria con Pastor Sevilla</direccion>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <horario>7:00 - 19:00</horario>
+        <coordenadas>-12.2430894, -76.92939930000001</coordenadas>
+    </centro>
+    <centro id="28">
+        <id>28</id>
+        <nombre>CENTRO DE SALUD SAN JUAN DE MIRAFLORES</nombre>
+        <categoria>I-3</categoria>
+        <telefono>962280735</telefono>
+        <direccion>PSJE. SAN JUAN, JUNTO COMISARÍA SJM</direccion>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>8:00-14:00</horario>
+        <coordenadas>-12.1578985, -76.97529229999999</coordenadas>
+    </centro>
+   
+    <centro id="29">
+        <id>29</id>
+        <nombre>PUESTO DE SALUD DEFENSORES DE LIMA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-7158608</telefono>
+        <direccion>OTROS AAHH DEFENSORES DE LIMA S/N, FRENTE A LA MZ D S/N AAHH DEFENSORES DE LIMA S/N, FRENTE A LA MZ D CHORRILLOS LIMA LIMA</direccion>
+        <distrito>CHORRILLOS</distrito>
+        <horario>8:00 - 14:00</horario>
+        <coordenadas>-12.194172, -76.97560709999999</coordenadas>
+    </centro>
+    <centro id="30">
+        <id>30</id>
+        <nombre>CENTRO MATERNO INFANTIL JUAN PABLO II</nombre>
+        <categoria>I-4</categoria>
+        <telefono>014931881</telefono>
+        <direccion>AVENIDA AV. MARIANO PASTOR SEVILLA S/N ,SECTOR 6,GRUPO 6 NÚMERO S/N DISTRITO VILLA EL SALVADOR PROVINCIA LIMA DEPARTAMENTO LIMA</direccion>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <horario>24 HRS</horario>
+        <coordenadas>-12.2189399, -76.9456003</coordenadas>
+    </centro>
+    <centro id="31">
+        <id>31</id>
+        <nombre>PUESTO DE SALUD 6 DE JULIO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2790468</telefono>
+        <direccion>OTROS ASOCIACION MAGISTERIAL MZ I LOTE S/N-PAMPLONA BAJA S/N ASOCIACION MAGISTERIAL MZ I LOTE S/N-PAMPLONA BAJA SAN JUAN DE MIRAFLORES LIMA LIMA</direccion>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>8:00-14:00</horario>
+        <coordenadas>-12.1408028, -76.9779264</coordenadas>
+    </centro>
+    <centro id="32">
+        <id>32</id>
+        <nombre>PUESTO DE SALUD CRISTO SALVADOR</nombre>
+        <categoria>I-2</categoria>
+        <telefono>920672220</telefono>
+        <direccion>PARQUE ST. 9 GR. 2 PARQUE CENTRAL ST. 9 GR. 2 PARQUE CENTRAL VILLA EL SALVADOR LIMA LIMA</direccion>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <horario>08:00 A 14:00</horario>
+        <coordenadas>-12.2329951, -76.9433591</coordenadas>
+    </centro>
+    <centro id="33">
+        <id>33</id>
+        <nombre>PUESTO DE SALUD MODULO I</nombre>
+        <categoria>I-2</categoria>
+        <telefono>(51) 1-2801351</telefono>
+        <direccion>PROLONGACIÓN PROLONGACION LUCANAS S/N PARADERO 12 NÚMERO S/N DISTRITO VILLA MARIA DEL TRIUNFO PROVINCIA LIMA DEPARTAMENTO LIMA</direccion>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>8:00-14:00 HORAS</horario>
+        <coordenadas>-12.2245614, -76.9112315</coordenadas>
+    </centro>
+    <centro id="34">
+        <id>34</id>
+        <nombre>PUESTO DE SALUD LOS VIÑEDOS DE SURCO</nombre>
+        <categoria>I-2</categoria>   
+        <telefono>01 2579543</telefono>     
+        <direccion>OTROS MZ F LOTE 12 AAHH VIÑEDOS DE SURCO MZ F LOTE 12 AAHH VIÑEDOS DE SURCO SANTIAGO DE SURCO LIMA LIMA</direccion>
+        <distrito>SANTIAGO DE SURCO</distrito>
+        <horario>8:00 - 20:00</horario>
+        <coordenadas>-12.1626498, -76.98948639999999</coordenadas>
+    </centro>
+    <centro id="35">
+        <id>35</id>
+        <nombre>PUESTO DE SALUD TAMBO INGA</nombre>
+        <categoria>I-1</categoria>
+        <telefono>979731510</telefono>
+        <direccion>AVENIDA AV VICTOR MALASQUEZ CENTRO POBLADO RURAL TAMBO INGA - PACHACAMAC AV VICTOR MALASQUEZ CENTRO POBLADO RURAL TAMBO INGA - PACHACAMAC PACHACAMAC LIMA LIMA</direccion>
+        <distrito>PACHACAMAC</distrito>
+        <horario>8:00-14:00</horario>
+        <coordenadas>-12.1473044, -76.84103700000001</coordenadas>
+    </centro>
+    <centro id="36">
+        <id>36</id>
+        <nombre>CENTRO DE SALUD MENTAL COMUNITARIO SANTA ROSA DE MANCHAY</nombre>
+        <categoria>I-3</categoria>
+        <telefono>994968951</telefono>
+        <direccion>CALLE 20 SECTOR PORTADA DE MANCHAY III CPR HUERTOS DE MANCHAY B5 03 PACHACAMAC LIMA LIMA</direccion>
+        <distrito>PACHACAMAC</distrito>
+        <horario>08 AM - 20 HORAS</horario>
+        <coordenadas>-12.0949501, -76.8850267</coordenadas>
+    </centro>
+    <centro id="37">
+        <id>37</id>
+        <nombre>CENTRO DE SALUD SAN MARTIN DE PORRES</nombre>
+        <categoria>I-3</categoria>
+        <telefono>4930655</telefono>
+        <direccion>CALLE CALLE LOS BOMBEROS S/N ST. 2 GR. 15 S/N CALLE LOS BOMBEROS S/N ST. 2 GR. 15 VILLA EL SALVADOR LIMA LIMA</direccion>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <horario>07:00 - 19:00</horario>
+        <coordenadas>-12.2120572, -76.9392625</coordenadas>
+    </centro>
+    <centro id="38">
+        <id>38</id>
+        <nombre>PUESTO DE SALUD MARTHA MILAGROS BAJA</nombre>
+        <categoria>I-2</categoria>
+        <direccion>AVENIDA AV. LOS CIPRECES MZ B , LOTE 01 , MARTHA MILAGROS BAJA AV. LOS CIPRECES MZ B , LOTE 01 , MARTHA MILAGROS BAJA LURIN LIMA LIMA</direccion>
+        <distrito>LURIN</distrito>
+        <telefono>2682343</telefono>
+        <horario>8:00-14:00</horario>
+        <coordenadas>-12.234083, -76.9024962</coordenadas>
+    </centro>
+    <centro id="39">
+        <id>39</id>
+        <nombre>CENTRO DE SALUD SAN BARTOLO</nombre>
+        <categoria>I-3</categoria>
+        <telefono>4307843</telefono>
+        <direccion>AVENIDA SAN BARTOLO MZ A LT 1 Y AV. EL GOFL S/N SAN BARTOLO LIMA LIMA</direccion>
+        <distrito>SAN BARTOLO</distrito>
+        <horario>08:00-20:00 l-s</horario>
+        <coordenadas>-12.387183, -76.7771796</coordenadas>
+    </centro>
+
+    <centro id="40">
+        <id>40</id>
+        <nombre>PUESTO DE SALUD NUEVA CALEDONIA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2551787</telefono>
+        <direccion>AVENIDA AV. HUANCAVELICA MZ.E,LT.1 AAHH NUEVA CALEDONIA AV. HUANCAVELICA MZ.E,LT.1 AAHH NUEVA CALEDONIA CHORRILLOS LIMA LIMA</direccion>
+        <distrito>CHORRILLOS</distrito>
+        <horarios>8:00 - 14:00</horarios>
+        <coordenadas>-12.2000346, -77.0296714</coordenadas>
+    </centro>
+    <centro id="41">
+        <id>40</id>
+        <nombre>CENTRO MATERNO INFANTIL VILLA MARIA DEL TRIUNFO</nombre>
+        <categoria>I-4</categoria>
+        <telefono>01-5933900</telefono>
+        <direccion>AVENIDA AV. PEDRO VALLE S/N (ALTURA CUADRA 18 AV.EL TRIUNFO) S/N AV. PEDRO VALLE S/N (ALTURA CUADRA 18 AV.EL TRIUNFO) VILLA MARIA DEL TRIUNFO LIMA LIMA</direccion>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horarios>24 HORAS DE LUNES A</horarios>
+        <coordenadas>-12.156803, -76.9362632</coordenadas>
+    </centro>
+    <centro id="42">
+        <id>40</id>
+        <nombre>PUESTO DE SALUD DESIDERIO MOSCOSO CASTILLO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>979297053</telefono>
+        <direccion>OTROS AA.HH. VIRGEN DEL GUADALUPE SN MZ E LT 1 URB PAMPLONA ALTA SAN JUAN DE MIRAFLORES LIMA LIMA</direccion>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horarios>8:00 - 14:00</horarios>
+        <coordenadas>-12.1245598, -76.9511306</coordenadas>
+    </centro>
+    <centro id="43">
+        <id>40</id>
+        <nombre>PUESTO DE SALUD VALLE SHARON</nombre>
+        <categoria>I-2</categoria>
+        <telefono>014552291</telefono>
+        <direccion>OTROS ESQ. DE LOS ALELÍS Y CIPRECES S/N. VALLE SHARON S/N ESQ. DE LOS ALELÍS Y CIPRECES S/N. VALLE SHARON SAN JUAN DE MIRAFLORES LIMA LIMA</direccion>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horarios>8:00 - 14:00</horarios>
+        <coordenadas>-12.1710334, -76.9661805</coordenadas>
+    </centro>
+    <centro id="44">
+        <id>40</id>
+        <nombre>CENTRO DE ATENCION DEL ADULTO MAYOR TAYTA WASI</nombre>
+        <categoria>I-3</categoria>
+        <telefono>01-2599171</telefono>
+        <direccion>AVENIDA AV. PRIMAVERA CRUZE CON CALLE SUCRE S/N PPJJ JOSE CARLOS MARIATEGUI S/N AV. PRIMAVERA CRUZE CON CALLE SUCRE S/N PPJJ JOSE CARLOS MARIATEGUI VILLA MARIA DEL TRIUNFO LIMA LIMA</direccion>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horarios>LUNES A SABADO 8 A 8</horarios>
+        <coordenadas>-12.1415775, -76.94994</coordenadas>
+    </centro>
+    <centro id="45">
+        <id>40</id>
+        <nombre>PUESTO DE SALUD JOSE MARIA ARGUEDAS</nombre>
+        <categoria>I-2</categoria>
+        <telefono>(51) 1-2674606</telefono>
+        <direccion>PASAJE PASAJE A, MZ F, LOTE 01, SECTOR JOSE MARIA ARGUEDAS, PAMPLONA ALTA PASAJE A, MZ F, LOTE 01, SECTOR JOSE MARIA ARGUEDAS, PAMPLONA ALTA SAN JUAN DE MIRAF LORES LIMA LIMA</direccion>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horarios>7:00 - 19:00</horarios>
+        <coordenadas>-12.1327747, -76.9552343</coordenadas>
+    </centro>
+    <centro id="46">
+        <id>40</id>
+        <nombre>CENTRO DE SALUD DELICIAS DE VILLA</nombre>
+        <categoria>I-3</categoria>
+        <telefono>01-2585457</telefono>
+        <direccion>JIRÓN NEVADO CARHUAZO S/N II ZONA DELICIAS DE VILLA S/N CHORRILLOS LIMA LIMA</direccion>
+        <distrito>CHORRILLOS</distrito>
+        <horarios>24 HORAS</horarios>
+        <coordenadas>-12.1987325, -76.9929949</coordenadas>
+    </centro>
+    <centro id="47">
+        <id>40</id>
+        <nombre>PUESTO DE SALUD 12 DE JUNIO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>989458686</telefono>
+        <direccion>CALLE CALLE AMANCAES S/N, INTERSECCIÓN CON PASAJE LAS FLORES, MZ. J, LOTE 4, AAHH. 12 DE JUNIO S/N CALLE AMANCAES S/N, INTERSECCIÓN CON PASAJE LAS FLORES, MZ. J, LOTE 4, AAHH. 12 DE JUNIO VILLA MARIA DEL TRIUNFO LIMA LIMA</direccion>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horarios>LUNES A SÁBADO 8.00</horarios>
+        <coordenadas>-12.1632064, -76.929695</coordenadas>
+    </centro>
+    <centro id="48">
+        <id>40</id>
+        <nombre>PUESTO DE SALUD VILLA VENTURO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>941826069</telefono>
+        <direccion>CALLE CALLE JAUJA S/N. S/N CALLE JAUJA S/N. CHORRILLOS LIMA LIMA</direccion>
+        <distrito>CHORRILLOS</distrito>
+        <horarios>8:00 - 14:00</horarios>
+        <coordenadas>-12.1875846, -77.0126343</coordenadas>
+    </centro>
+    <centro id="49">
+        <id>40</id>
+        <nombre>PUESTO DE SALUD VISTA ALEGRE DE VILLA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2485774</telefono>
+        <direccion>CALLE CALLE JOSE CARLOS MARIATEGUI S/N S/N CALLE JOSE CARLOS MARIATEGUI S/N CHORRILLOS LIMA LIMA</direccion>
+        <distrito>CHORRILLOS</distrito>
+        <horarios>8:00 - 14:00</horarios>
+        <coordenadas>-12.1870604, -76.992612</coordenadas>
+    </centro>
+
+   
+    <centro id="50">
+        <id>50</id>
+        <nombre>PUESTO DE SALUD SAGRADA FAMILIA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>966429605</telefono>
+        <direccion>OTROS SECTOR 2, GRUPO 18, PARQUE CENTRAL ST. 2 GR. 18 VILLA EL SALVADOR LIMA LIMA</direccion>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <horario>08:00 - 14:00</horario>
+        <coordenadas>-12.2091445, -76.9437976</coordenadas>
+    </centro>
+        <centro id="51">
+        <id>51</id>
+        <nombre>PUESTO DE SALUD LLANAVILLA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2914507</telefono>
+        <direccion>CALLE CALLE LA PAZ MZ F LTE 05 SECTOR 8 CALLE LA PAZ MZ F LTE 05 SECTOR 8 VILLA EL SALVADOR LIMA LIMA</direccion>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <horario>06 HORAS / 08:00 L-S</horario>
+        <coordenadas>-12.1913889, -76.9417582</coordenadas>
+    </centro>
+    <centro id="52">
+        <id>52</id>
+        <nombre>CENTRO DE SALUD MENTAL COMUNITARIO CIENEGUILLA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>4089409</telefono>
+        <direccion>AVENIDA PACHACUTEC 1 5 - ZONA B TAMBO VIEJO PLAZA DE ARMAS DE CIENEGUILLA CIENEGUILLA LIMA LIMA</direccion>
+        <distrito>CIENEGUILLA</distrito>
+        <horario>08.00 - 20.00</horario>
+        <coordenadas>-12.1122458, -76.8177291</coordenadas>
+    </centro>
+    <centro id="53">
+        <id>53</id>
+        <nombre>PUESTO DE SALUD SANTA TERESA DE CHORRILLOS</nombre>
+        <categoria>I-2</categoria>
+        <telefono>978778249</telefono>
+        <direccion>PROLONGACIÓN AV.EL SOL S/N AA.HH.SANTA TERESA DE CHORRILLOS CHORRILLOS LIMA LIMA</direccion>
+        <distrito>CHORRILLOS</distrito>
+        <horario>8:00 - 14:00</horario>
+        <coordenadas>-12.1870625, -77.0175625</coordenadas>
+    </centro>
+    <centro id="54">
+        <id>54</id>
+        <nombre>PUESTO DE SALUD DE PUNTA HERMOSA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2307054</telefono>
+        <direccion>JIRÓN JR PIMENTEL Nº 248 MZ G LT 9 JR PIMENTEL Nº 248 MZ G LT 9 PUNTA HERMOSA LIMA LIMA</direccion>
+        <distrito>PUNTA HERMOSA</distrito>
+        <horario>08:00 A 14:00 L-S</horario>
+        <coordenadas>-12.302735, -76.7830867</coordenadas>
+    </centro>
+    <centro id="55">
+        <id>55</id>
+        <nombre>PUESTO DE SALUD SANTA ISABEL DE VILLA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2485736</telefono>
+        <direccion>AVENIDA AV. INDEPENDENCIA S/N.AAHH SANTA ISABEL DE VILLA S/N AV. INDEPENDENCIA S/N.AAHH SANTA ISABEL DE VILLA CHORRILLOS LIMA LIMA</direccion>
+        <distrito>CHORRILLOS</distrito>
+        <horario>8:00 - 14:00</horario>
+        <coordenadas>-12.200616, -76.9782823</coordenadas>
+    </centro>
+    <centro id="56">
+        <id>56</id>
+        <nombre>PUESTO DE SALUD JUAN CARLOS SOBERON</nombre>
+        <categoria>I-2</categoria>
+        <telefono>992424518</telefono>
+        <direccion>PROLONGACIÓN PROLONGACION AV. JOSE CARLOS MARIATEGUI MZ 6 LOTE 18 AAHH VIRGEN DE LA CANDELARIA PROLONGACION AV. JOSE CARLOS MARIATEGUI MZ 6 LOTE 18 AAHH VIRGEN DE LA CANDELARIA VILLA MARIA DEL TRIUNFO LIMA LIMA</direccion>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>08:00 - 14:00</horario>
+        <coordenadas>-12.1269655, -76.93046819999999</coordenadas>
+    </centro>
+    <centro id="57">
+        <id>57</id>
+        <nombre>CENTRO DE SALUD JESUS PODEROSO</nombre>
+        <categoria>I-3</categoria>
+        <telefono>01-4502516</telefono>
+        <direccion>OTROS PUEBLO JOVEN JESUS PODEROSO LOTE C MZ T S/N PAMPLONA BAJA S/N PUEBLO JOVEN JESUS PODEROSO LOTE C MZ T S/N PAMPLONA BAJA SAN JUAN DE MIRAFLORES LIMA LIMA</direccion>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>L-S: 08:00-20:00</horario>
+        <coordenadas>-12.1485135, -76.9816665</coordenadas>
+    </centro>
+    <centro id="58">
+        <id>58</id>
+        <nombre>PUESTO DE SALUD PARAISO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>997312692</telefono>
+        <direccion>CALLE CALLE L, LTE. 6 Y 7 MZ. H, AAHH- PARAISO CALLE L, LTE. 6 Y 7 MZ. H, AAHH- PARAISO SAN JUAN DE MIRAFLORES LIMA LIMA</direccion>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>8:00-14:00</horario>
+        <coordenadas>-12.1857908, -76.956902</coordenadas>
+    </centro>
+    <centro id="59">
+        <id>59</id>
+        <nombre>PUESTO DE SALUD CIUDAD DE GOSEN</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2932123</telefono>
+        <direccion>OTROS DIVINO MAESTRO MZ D LT 11 DIVINO MAESTRO MZ D LT 11 VILLA MARIA DEL TRIUNFO LIMA LIMA</direccion>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>8:00-14:00</horario>
+        <coordenadas>-12.2138167, -76.9206267</coordenadas>
+    </centro>
+
+    <centro id="60">
+        <id>60</id>
+        <nombre>CENTRO MATERNO INFANTIL DANIEL ALCIDES CARRION</nombre>
+        <categoria>I-4</categoria>
+        <telefono>01-4505684</telefono>
+        <direccion>AV. PACHACUTEC Nº 3470</direccion>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>08:00-14:00</horario>
+        <coordenadas>-12.177933, -76.9454915</coordenadas>
+    </centro>
+    <centro id="61">
+        <id>61</id>
+        <nombre>CENTRO DE SALUD VILLA ALEJANDRO</nombre>
+        <categoria>I-3</categoria>
+        <telefono>2935539</telefono>
+        <direccion>OTROS MZ L- LOTE 31, AAHH VILLA ALEJANDRO</direccion>
+        <distrito>LURIN</distrito>
+        <horario>12 HRS / 08:00 A 20:00</horario>
+        <coordenadas>-12.23584, -76.9102852</coordenadas>
+    </centro>
+    <centro id="62">
+        <id>62</id>
+        <nombre>CENTRO DE SALUD MENTAL COMUNITARIO LA MEDALLA MILAGROSA</nombre>
+        <categoria>I-3</categoria>
+        <telefono>999037894</telefono>
+        <direccion>JIRÓN 12 DE JULIO SECTOR 24 DE JUNIO COLLANAC</direccion>
+        <distrito>PACHACAMAC</distrito>
+        <horario>08 AM - 20 HORAS</horario>
+        <coordenadas>-12.1281347, -76.8711223</coordenadas>
+    </centro>
+    <centro id="63">
+        <id>63</id>
+        <nombre>CENTRO MATERNO INFANTIL BUENOS AIRES DE VILLA</nombre>
+        <categoria>I-4</categoria>
+        <telefono>2583948</telefono>
+        <direccion>AV. BUENOS AIRES DE VILLA S/N</direccion>
+        <distrito>CHORRILLOS</distrito>
+        <horario>24 HORAS</horario>
+        <coordenadas>-12.165972, -77.020482</coordenadas>
+    </centro>
+    <centro id="64">
+        <id>64</id>
+        <nombre>PUESTO DE SALUD HÉROES DEL PACIFICO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-4500962</telefono>
+        <direccion>JIRÓN 1° DE ENERO S/N AAHH PACIFICO I</direccion>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>08:00-14:00</horario>
+        <coordenadas>-12.1742984, -76.9572629</coordenadas>
+    </centro>
+    <centro id="65">
+        <id>65</id>
+        <nombre>PUESTO DE SALUD PAMPAS DE SAN JUAN</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-4508370</telefono>
+        <direccion>AV. PEDRO SILVA CDRA. 10, ZONA C</direccion>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>08:00-14:00</horario>
+        <coordenadas>-12.1668662, -76.9658395</coordenadas>
+    </centro>
+    <centro id="66">
+        <id>66</id>
+        <nombre>PUESTO DE SALUD VILLA MERCEDES</nombre>
+        <categoria>I-2</categoria>
+        <telefono>(51)930538230</telefono>
+        <direccion>AV. MANCO CAPAC MZ H LT 01</direccion>
+        <distrito>SANTA MARIA DEL MAR</distrito>
+        <horario>08:00 - 14:00 L-S</horario>
+        <coordenadas>-12.3899396, -76.7726592</coordenadas>
+    </centro>
+    <centro id="67">
+        <id>67</id>
+        <nombre>CMI MANUEL BARRETO</nombre>
+        <categoria>I-4</categoria>
+        <telefono>(51) 1-4663649</telefono>
+        <direccion>JIRÓN MANUEL BARRETO S/N, CDRA. 2, ZONA K, CIUDAD DE DIOS</direccion>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>24 HORAS</horario>
+        <coordenadas>-12.1525223, -76.9686591</coordenadas>
+    </centro>
+    <centro id="68">
+        <id>68</id>
+        <nombre>PUESTO DE SALUD SASBI</nombre>
+        <categoria>I-2</categoria>
+        <telefono>1-5708505</telefono>
+        <direccion>PARQUE SECTOR 6 - GRUPO 01</direccion>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <horario>08:00-14:00 L-S</horario>
+        <coordenadas>-12.2083713, -76.9545898</coordenadas>
+    </centro>
+    <centro id="69">
+        <id>69</id>
+        <nombre>COLCA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>(51) 1-4798751</telefono>
+        <direccion>CALLE GALILEA, MZ. N, LOTE 4 - CPR VILLA TOLEDO</direccion>
+        <distrito>CIENEGUILLA</distrito>
+        <horario>08:00 - 14:00</horario>
+        <coordenadas>-12.104228, -76.8013053</coordenadas>
+    </centro>
+
+<centro id="70">
+    <id>70</id>
+    <nombre>PUESTO DE SALUD MARIANNE PREUSS DE STARK</nombre>
+    <categoria>I-2</categoria>
+    <telefono>01-2851020</telefono>
+    <direccion>CALLE MZ 78 LT5 (LOS LAURELES) INTERSECCION CALLE Q1 Y CALLE 10 SECTOR LOS ANGELES PAMPLONA ALTA SAN JUAN DE MIRAFLORES LIMA LIMA</direccion>
+    <distrito>SAN JUAN DE MIRAFLORES</distrito>
+    <horario>8:00 - 14:00</horario>
+    <coordenadas>-12.1468574, -76.962498</coordenadas>
+</centro>
+<centro id="71">
+    <id>71</id>
+    <nombre>PUESTO DE SALUD PACHACAMAC</nombre>
+    <categoria>I-2</categoria>
+    <telefono>2880509</telefono>
+    <direccion>AVENIDA AV. 200 MILLAS BARRIO 2, SECTOR 1, IV ETAPA-PACHACAMAC VILLA EL SALVADOR LIMA LIMA</direccion>
+    <distrito>VILLA EL SALVADOR</distrito>
+    <horario>LUNES A SABADO:08:00</horario>
+    <coordenadas>-12.2242314, -76.9210387</coordenadas>
+</centro>
+<centro id="72">
+    <id>72</id>
+    <nombre>PUESTO DE SALUD LAS DUNAS</nombre>
+    <categoria>I-2</categoria>
+    <telefono>(51) 1-7150925</telefono>
+    <direccion>CALLE CALLE LOS HERRERILLOS MZA F LTE 1 S/N - LAS DUNAS SANTIAGO DE SURCO LIMA LIMA</direccion>
+    <distrito>SANTIAGO DE SURCO</distrito>
+    <horario>8:00 - 14:00</horario>
+    <coordenadas>-12.1666279, -76.9845127</coordenadas>
+</centro>
+<centro id="73">
+    <id>73</id>
+    <nombre>PUESTO DE SALUD BRISAS DE PACHACAMAC</nombre>
+    <categoria>I-2</categoria>
+    <telefono>7152638</telefono>
+    <direccion>AVENIDA AV. REICHE S/N MZ K AA.HH. BRISAS DE PACHACAMAC VILLA EL SALVADOR LIMA LIMA</direccion>
+    <distrito>VILLA EL SALVADOR</distrito>
+    <horario>08:00 - 14:00 L-S</horario>
+    <coordenadas>-12.2160493, -76.9416789</coordenadas>
+</centro>
+<centro id="74">
+    <id>74</id>
+    <nombre>PUESTO DE SALUD VIRGEN DEL BUEN PASO</nombre>
+    <categoria>I-2</categoria>
+    <telefono>01-2855967</telefono>
+    <direccion>AVENIDA AV. CENTENARIO PARAD.14, SECT.VÍRGEN DEL BUEN PASO-PAMPLONA ALTA SAN JUAN DE MIRAFLORES LIMA LIMA</direccion>
+    <distrito>SAN JUAN DE MIRAFLORES</distrito>
+    <horario>8:00-14:00</horario>
+    <coordenadas>-12.1418223, -76.9621309</coordenadas>
+</centro>
+<centro id="75">
+    <id>75</id>
+    <nombre>PUESTO DE SALUD EL BRILLANTE</nombre>
+    <categoria>I-2</categoria>
+    <telefono>01-2674570</telefono>
+    <direccion>PROLONGACIÓN AV. SAN JUAN CON AVDA DEFENSORES DE LIMA S/N PAMPLONA ALTA SAN JUAN DE MIRAFLORES LIMA LIMA</direccion>
+    <distrito>SAN JUAN DE MIRAFLORES</distrito>
+    <horario>8:00-14:00</horario>
+    <coordenadas>-12.1474598, -76.9688233</coordenadas>
+</centro>
+<centro id="76">
+    <id>76</id>
+    <nombre>CENTRO DE SALUD TRÉBOL AZUL</nombre>
+    <categoria>I-3</categoria>
+    <telefono>01-2762502</telefono>
+    <direccion>AVENIDA AV. MIGUEL GRAU MZ. L, LOTE. 15 - ALT. CDRA 9 AV. PROLONG. CANEVARO AAHH TRÉBOL AZUL SAN JUAN DE MIRAFLORES LIMA LIMA</direccion>
+    <distrito>SAN JUAN DE MIRAFLORES</distrito>
+    <horario>8:00-08:00</horario>
+    <coordenadas>-12.1776378, -76.965839</coordenadas>
+</centro>
+<centro id="77">
+    <id>77</id>
+    <nombre>PUESTO DE SALUD VIRGEN DE LOURDES</nombre>
+    <categoria>I-2</categoria>
+    <telefono>987469118</telefono>
+    <direccion>AVENIDA AV. CONDEBAMBA S/N NÚMERO S/N DISTRITO VILLA MARIA DEL TRIUNFO PROVINCIA LIMA DEPARTAMENTO LIMA</direccion>
+    <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+    <horario>8:00-14:00 (L-S)</horario>
+    <coordenadas>-12.1674079, -76.9190612</coordenadas>
+</centro>
+<centro id="78">
+    <id>78</id>
+    <nombre>PUESTO DE SALUD LA RINCONADA</nombre>
+    <categoria>I-2</categoria>
+    <telefono>1-2854570</telefono>
+    <direccion>OTROS MZ T2 LOTE 15 AAHH LA RINCONADA -PAMPLONA ALTA SAN JUAN DE MIRAFLORES LIMA LIMA</direccion>
+    <distrito>SAN JUAN DE MIRAFLORES</distrito>
+    <horario>8:00-14:00</horario>
+    <coordenadas>-12.1265944, -76.9594086</coordenadas>
+</centro>
+<centro id="79">
+    <id>79</id>
+    <nombre>PUESTO DE SALUD MICAELA BASTIDAS</nombre>
+    <categoria>I-2</categoria>
+    <telefono>945241719</telefono>
+    <direccion>JIRÓN JR. JOSE OLAYA S/N VILLA MARIA DEL TRIUNFO LIMA LIMA</direccion>
+    <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+    <horario>8:00-14:00</horario>
+    <coordenadas>-12.1725356, -76.949937</coordenadas>
+</centro>
+<centro id="80">
+    <id>80</id>
+    <nombre>PUESTO DE SALUD SANTA URSULA</nombre>
+    <categoria>I-2</categoria>
+    <telefono>988381846</telefono>
+    <direccion>CALLE SANTA TERESA MZ G LOTE 17 COOPERATIVA SANTA URSULA SAN JUAN DE MIRAFLORES LIMA LIMA</direccion>
+    <distrito>SAN JUAN DE MIRAFLORES</distrito>
+    <horario>7:00-14:00 L-S</horario>
+    <coordenadas>-12.18102, -76.963999</coordenadas>
+</centro>
+
+    <centros>
+    <centro id="81">
+        <id>81</id>
+        <nombre>PUESTO DE SALUD TORRES DE MELGAR</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2929682</telefono>
+        <direccion>OTROS MZ. SPCO LOTE PM AAHH TORRES DE MELGAR MZ. SPCO LOTE PM AAHH TORRES DE MELGAR VILLA MARIA DEL TRIUNFO LIMA LIMA</direccion>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>8:00-14:00</horario>
+        <coordenadas>-12.1840397, -76.9512014</coordenadas>
+    </centro>
+    <centro id="82">
+        <id>82</id>
+        <nombre>CENTRO DE SALUD HEROES DEL CENEPA</nombre>
+        <categoria>I-3</categoria>
+        <telefono>7838778</telefono>
+        <direccion>JIRÓN JR. HEROES DEL CENEPA MZ C LT 20, ALT DE PANAM.SUR KM 24 DISTRITO VILLA EL SALVADOR PROVINCIA LIMA DEPARTAMENTO LIMA</direccion>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <horario>08:00 - 14:00 l-s</horario>
+        <coordenadas>-12.2487567, -76.9306828</coordenadas>
+    </centro>
+    <centro id="83">
+        <id>83</id>
+        <nombre>CENTRO MATERNO INFANTIL DE SALUD - "VIRGEN DEL CARMEN"</nombre>
+        <categoria>I-4</categoria>
+        <telefono>01-2513635</telefono>
+        <direccion>CALLE LEOPOLDO ARIAS NRO. 200 CALLE LEOPOLDO ARIAS NRO. 200 CHORRILLOS LIMA LIMA</direccion>
+        <distrito>CHORRILLOS</distrito>
+        <horario>24 HORAS</horario>
+        <coordenadas>-12.165972, -77.020482</coordenadas>
+    </centro>
+    <centro id="84">
+        <id>84</id>
+        <nombre>PUESTO DE SALUD "VILLA SOLIDARIDAD"</nombre>
+        <categoria>I-2</categoria>
+        <telefono>014508371</telefono>
+        <direccion>CALLE 9  SN MZ F-A LOTE 3 ASENTAMIENTO HUMANO VILLA SOLIDARIDAD SAN JUAN DE MIRAFLORES LIMA LIMA</direccion>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>8:00-14:00</horario>
+        <coordenadas>-12.167724, -76.9592065</coordenadas>
+    </centro>
+    <centro id="85">
+        <id>85</id>
+        <nombre>PUESTO DE SALUD BUENOS AIRES</nombre>
+        <categoria>I-2</categoria>
+        <telefono>2672698</telefono>
+        <direccion>BUENOS AIRES S/N SAN GABRIEL BAJO S/N BUENOS AIRES S/N SAN GABRIEL BAJO VILLA MARIA DEL TRIUNFO LIMA LIMA</direccion>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>8:00-14:00 HORAS</horario>
+        <coordenadas>-12.1477081, -76.9549933</coordenadas>
+    </centro>
+    <centro id="86">
+        <id>86</id>
+        <nombre>PUESTO DE SALUD SAN CARLOS</nombre>
+        <categoria>I-1</categoria>
+        <telefono>01-2473112</telefono>
+        <direccion>JR. MARISCAL SANTA CRUZ S/N AAHH SAN CARLOS SANTIAGO DE SURCO LIMA LIMA</direccion>
+        <distrito>SANTIAGO DE SURCO</distrito>
+        <horario>8:00 - 14:00</horario>
+        <coordenadas>-12.1844913, -77.0095028</coordenadas>
+    </centro>
+    <centro id="87">
+        <id>87</id>
+        <nombre>HUAYCAN DE CIENEGUILLA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>4799295</telefono>
+        <direccion>OTROS CENTRO POBLADO HUAYCAN MZ D, LOTE 7 - CPR AUTOG.HUAYCAN CIENEGUILLA CIENEGUILLA LIMA LIMA</direccion>
+        <distrito>CIENEGUILLA</distrito>
+        <horario>08:00 - 14:00</horario>
+        <coordenadas>#ERROR!</coordenadas>
+    </centro>
+    <centro id="88">
+        <id>88</id>
+        <nombre>CLAS JULIO C TELLO</nombre>
+        <categoria>I-3</categoria>
+        <telefono>988764576</telefono>
+        <direccion>AVENIDA AV. LAS ACASIAS MZ B LT 12  ST 1 JULIO C. TELLO LURIN LIMA LIMA</direccion>
+        <distrito>LURIN</distrito>
+        <horario>08:00 - 20:00 L-S</horario>
+        <coordenadas>-12.2513499, -76.8991284</coordenadas>
+    </centro>
+    <centro id="89">
+        <id>89</id>
+        <nombre>PUESTO DE SALUD QUEBRADA VERDE</nombre>
+        <categoria>I-2</categoria>
+        <telefono>982561343</telefono>
+        <direccion>AVENIDA AV. ROQUE SAENZ PEÑA MZ. I LOTE 13 PACHACAMAC LIMA LIMA</direccion>
+        <distrito>PACHACAMAC</distrito>
+        <horario>08:00 A 14:00 L-S</horario>
+        <coordenadas>-12.2104044, -76.876871</coordenadas>
+    </centro>
+    <centro id="90">
+        <id>90</id>
+        <nombre>PUESTO DE SALUD BUENA VISTA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>3673271</telefono>
+        <direccion>PROLONGACIÓN PROLONG. ALFONSO UGARTE BUENA VISTA BAJA S/N LURIN LIMA LIMA</direccion>
+        <distrito>LURIN</distrito>
+        <horario>08:00 - 14:00</horario>
+        <coordenadas>-12.2567698, -76.8750715</coordenadas>
+    </centro>
+    <centros>
+    <centro id="91">
+        <id>91</id>
+        <nombre>PUESTO DE SALUD PARQUES DE MANCHAY</nombre>
+        <categoria>I-2</categoria>
+        <telefono>977478442</telefono>
+        <direccion>CARRETERA CARRETERA CIENEGUILLA KM 21-MZ 1 LT 12-13 AAHH PAUL POBLET LIND CARRETERA CIENEGUILLA KM 21-MZ 1 LT 12-13 AAHH PAUL POBLET LIND PACHACAMAC LIMA LIMA</direccion>
+        <distrito>PACHACAMAC</distrito>
+        <horario>08:00-14:00 L-S</horario>
+        <coordenadas>-12.166667, -76.86666699999999</coordenadas>
+    </centro>
+    <centro id="92">
+        <id>92</id>
+        <nombre>PUESTO DE SALUD LEONCIO PRADO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>(51) 1-2857156</telefono>
+        <direccion>OTROS MZ I-10 LOTE 6- SECTOR LEONCIO PRADO MZ I-10 LOTE 6- SECTOR LEONCIO PRADO SAN JUAN DE MIRAFLORES LIMA LIMA</direccion>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>8:00-14:00</horario>
+        <coordenadas>-12.1367202, -76.9613676</coordenadas>
+    </centro>
+    <centro id="93">
+        <id>93</id>
+        <nombre>CENTRO DE SALUD NUEVA ESPERANZA</nombre>
+        <categoria>I-3</categoria>
+        <telefono>(51) 1-2913152</telefono>
+        <direccion>AVENIDA AV. 26 DE NOVIEMBRE 835 NVA. ESPERANZA AV. 26 DE NOVIEMBRE 835 NVA. ESPERANZA VILLA MARIA DEL TRIUNFO LIMA LIMA</direccion>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>8:00-20:00</horario>
+        <coordenadas>-12.1730408, -76.9338776</coordenadas>
+    </centro>
+    <centro id="94">
+        <id>94</id>
+        <nombre>CENTRO DE SALUD GUSTAVO LANATTA LUJAN</nombre>
+        <categoria>I-3</categoria>
+        <telefono>01-2515217</telefono>
+        <direccion>AVENIDA AV. DEFENSORES DEL MORRO (EX HUAYLAS) Nº556 AV. DEFENSORES DEL MORRO (EX HUAYLAS) Nº556 CHORRILLOS LIMA LIMA</direccion>
+        <distrito>CHORRILLOS</distrito>
+        <horario>8:00 - 20:00</horario>
+        <coordenadas>-12.1693392, -77.02419119999999</coordenadas>
+    </centro>
+    <centro id="95">
+        <id>95</id>
+        <nombre>PUESTO DE SALUD VILLA LIMATAMBO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2831355</telefono>
+        <direccion>OTROS MZ J1 LOTE 2 AAHH VILLA LIMATAMBO MZ J1 LOTE 2 AAHH VILLA LIMATAMBO VILLA MARIA DEL TRIUNFO LIMA LIMA</direccion>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>8:00-14:00 HORAS</horario>
+        <coordenadas>-12.1346377, -76.9420848</coordenadas>
+    </centro>
+    <centro id="96">
+        <id>96</id>
+        <nombre>CENTRO DE SALUD VILLA SAN LUIS</nombre>
+        <categoria>I-3</categoria>
+        <telefono>01-2674616</telefono>
+        <direccion>AVENIDA VILLA SOLIDARIDAD O10 1 SECTOR VILLA SAN LUIS Y JOSÉ C. MARIÁTEGUI  VILLA SAN LUIS SAN JUAN DE MIRAFLORES LIMA LIMA</direccion>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>8:00-20:00</horario>
+        <coordenadas>-12.1425757, -76.97092289999999</coordenadas>
+    </centro>
+    <centro id="97">
+        <id>97</id>
+        <nombre>PUESTO DE SALUD RICARDO PALMA</nombre>
+        <categoria>I-2</categoria>
+        <telefono>2929224</telefono>
+        <direccion>OTROS MZ. F LOTE 1 ASOCIACION DE VIVIENDA TRADICIONES RICARDO PALMA MZ. F LOTE 1 ASOCIACION DE VIVIENDA TRADICIONES RICARDO PALMA SAN JUAN DE MIRAFLORES LIMA LIMA</direccion>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <horario>8:00-14:00</horario>
+        <coordenadas>-12.1859081, -76.9640241</coordenadas>
+    </centro>
+    <centro id="98">
+        <id>98</id>
+        <nombre>CENTRO DE SALUD MENTAL COMUNITARIO SAN SEBASTIAN</nombre>
+        <categoria>I-3</categoria>
+        <telefono>972185015</telefono>
+        <direccion>AVENIDA INDEPENDENCIA S/N SANTA ISABEL DE VILLA CHORRILLOS LIMA LIMA</direccion>
+        <distrito>CHORRILLOS</distrito>
+        <horario>8:00 a 20:00</horario>
+        <coordenadas>-12.1592818, -77.0200242</coordenadas>
+    </centro>
+    <centro id="99">
+        <id>99</id>
+        <nombre>PUESTO DE SALUD VALLE BAJO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2835943</telefono>
+        <direccion>CALLE INDEPENDENCIA NÚMERO S/N DISTRITO VILLA MARIA DEL TRIUNFO PROVINCIA LIMA DEPARTAMENTO LIMA</direccion>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>8:00-14:00</horario>
+        <coordenadas>-12.1497246, -76.9427893</coordenadas>
+    </centro>
+    <centro id="100">
+        <id>100</id>
+        <nombre>PUESTO DE SALUD NUEVO PROGRESO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>(51) 1-2931995</telefono>
+        <direccion>OTROS PUEBLO JOVEN NUEVO PROGRESO SECTOR I PUEBLO JOVEN NUEVO PROGRESO SECTOR I VILLA MARIA DEL TRIUNFO LIMA LIMA</direccion>
+        <distrito>VILLA MARIA DEL TRIUNFO</distrito>
+        <horario>8:00-14:00</horario>
+        <coordenadas>-12.2210039, -76.9202808</coordenadas>
+    </centro>
+
+    <centro id="101">
+        <id>101</id>
+        <nombre>PUESTO DE SALUD LAS FLORES</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-4366962</telefono>
+        <direccion>Calle Ferreñafe 220 - 2da Cuadra El Polo Urb. Las Flores - Monterrico, Santiago de Surco, Lima</direccion>
+        <distrito>Santiago de Surco</distrito>
+        <horario>8:00 - 14:00</horario>
+        <coordenadas>-12.1077606, -76.9748443</coordenadas>
+    </centro>
+        <centro id="102">
+            <id>102</id>
+            <nombre>PUESTO DE SALUD LOS INCAS</nombre>
+            <categoria>I-2</categoria>
+            <telefono>01-2497673</telefono>
+            <direccion>Calle Islas Guyanas Mz I-6 Lote 30 Urb. Los Cedros de Villa, Chorrillos, Lima</direccion>
+            <distrito>Chorrillos</distrito>
+            <horario>8:00 - 14:00</horario>
+            <coordenadas>-12.2014315, -77.0179431</coordenadas>
+        </centro>
+        <centro id="103">
+            <id>103</id>
+            <nombre>NUEVA GALES</nombre>
+            <categoria>I-2</categoria>
+            <telefono>949966580</telefono>
+            <direccion>Avenida Av 2 de Junio SN Mz C2 Lote 6, Asociación Nueva Gales, Cieneguilla, Lima</direccion>
+            <distrito>Cieneguilla</distrito>
+            <horario>07:00 - 13:30</horario>
+            <coordenadas>-12.0798588, -76.8745386</coordenadas>
+        </centro>
+        <centro id="104">
+            <id>104</id>
+            <nombre>CENTRO MATERNO INFANTIL JOSE CARLOS MARIATEGUI</nombre>
+            <categoria>I-4</categoria>
+            <telefono>01-2835782</telefono>
+            <direccion>Avenida Simón Bolívar Esquina Jr. Mariano Necochea S/N, Villa María del Triunfo, Lima</direccion>
+            <distrito>Villa María del Triunfo</distrito>
+            <horario>24 horas</horario>
+            <coordenadas>-12.1417773, -76.9526066</coordenadas>
+        </centro>
+        <centro id="105">
+            <id>105</id>
+            <nombre>PUESTO DE SALUD PARAISO ALTO</nombre>
+            <categoria>I-2</categoria>
+            <telefono>998839993</telefono>
+            <direccion>Proyecto Integral Paraíso Alto, Mz F2, Lote 1, Sector Paraíso Alto, Villa María del Triunfo, Lima</direccion>
+            <distrito>Villa María del Triunfo</distrito>
+            <horario>8:00 - 14:00</horario>
+            <coordenadas>-12.1857908, -76.956902</coordenadas>
+        </centro>
+        <centro id="106">
+            <id>106</id>
+            <nombre>PUESTO DE SALUD GUAYABO</nombre>
+            <categoria>I-2</categoria>
+            <telefono>947144437</telefono>
+            <direccion>Avenida Av San Juan Mz H Lt 2, Centro Poblado Rural Guayabo-Pachacamac, Lima</direccion>
+            <distrito>Pachacamac</distrito>
+            <horario>8:00 - 14:00</horario>
+            <coordenadas>-12.1989397, -76.8733292</coordenadas>
+        </centro>
+        <centro id="107">
+            <id>107</id>
+            <nombre>PUESTO DE SALUD LADERAS DE VILLA</nombre>
+            <categoria>I-2</categoria>
+            <telefono>012927129</telefono>
+            <direccion>Calle Manuel Iglesias Lote A.V. - 2, Ref. Calle Retama - Psje F, San Juan de Miraflores, Lima</direccion>
+            <distrito>San Juan de Miraflores</distrito>
+            <horario>8:00 - 14:00</horario>
+            <coordenadas>-12.1898195, -76.957621</coordenadas>
+        </centro>
+        <centro id="108">
+            <id>108</id>
+            <nombre>PUESTO DE SALUD "SEÑOR DE LOS MILAGROS"</nombre>
+            <categoria>I-2</categoria>
+            <telefono>01-5607513</telefono>
+            <direccion>St. 1 Gr. 25 Mz D1 Lote 2, Villa El Salvador, Lima</direccion>
+            <distrito>Villa El Salvador</distrito>
+            <horario>08:00 - L-S</horario>
+            <coordenadas>-12.2027706, -76.9516267</coordenadas>
+        </centro>
+        <centro id="109">
+            <id>109</id>
+            <nombre>CENTRO MATERNO INFANTIL TABLADA DE LURIN</nombre>
+            <categoria>I-4</categoria>
+            <telefono>01-2952021</telefono>
+            <direccion>Avenida Av. República y Billinghurst S/N 2do Sector, Villa María del Triunfo, Lima</direccion>
+            <distrito>Villa María del Triunfo</distrito>
+            <horario>24 horas</horario>
+            <coordenadas>-12.1914125, -76.9273043</coordenadas>
+        </centro>
+        <centro id="110">
+            <id>110</id>
+            <nombre>PUESTO DE SALUD ARMATAMBO</nombre>
+            <categoria>I-2</categoria>
+            <telefono>012518251</telefono>
+            <direccion>Calle Lucanas Mz 1 Lote 1 AAHH Armatambo, Chorrillos, Lima</direccion>
+            <distrito>Chorrillos</distrito>
+            <horario>8:00 - 14:00</horario>
+            <coordenadas>-12.1760478, -77.0227988</coordenadas>
+        </centro>
+
+    <centro id="111">
+        <id>111</id>
+        <nombre>CENTRO DE SALUD CLAS JUAN PABLO II</nombre>
+        <categoria>I-3</categoria>
+        <telefono>01-3574260</telefono>
+        <direccion>OTROS MANZANA K8 LOTE 5B, SECTOR LOS JARDINES HUERTOS DE MANCHAY MANZANA K8 LOTE 5B, SECTOR LOS JARDINES HUERTOS DE MANCHAY DEL DISTRITO DE PACHACAMAC PACHACAMAC LIMA LIMA</direccion>
+        <distrito>Pachacamac</distrito>
+        <horario>08:00-20:00 L-S</horario>
+        <coordenadas>-12.1095994, -76.8623769</coordenadas>
+    </centro>
+    <centro id="112">
+        <id>112</id>
+        <nombre>PUESTO DE SALUD CLAS VILLA LIBERTAD</nombre>
+        <categoria>I-2</categoria>
+        <telefono>1-2311798, 999608015</telefono>
+        <direccion>JIRÓN HUANUCO S/N CENTRO POBLADO RURAL CASICA - VILLA LIBERTAD LURIN LIMA LIMA</direccion>
+        <distrito>Lurín</distrito>
+        <horario>08:00 - 14:00 L - S</horario>
+        <coordenadas>-12.2239611, -76.9212538</coordenadas>
+    </centro>
+    <centro id="113">
+        <id>113</id>
+        <nombre>CENTRO DE SALUD TUPAC AMARU DE VILLA</nombre>
+        <categoria>I-3</categoria>
+        <telefono>979017855</telefono>
+        <direccion>AVENIDA AV. TÚPAC AMARU MZ. E, LT.1 AV. TÚPAC AMARU MZ. E, LT.1 CHORRILLOS LIMA LIMA</direccion>
+        <distrito>Chorrillos</distrito>
+        <horario>LUNES A SABADO 8:00</horario>
+        <coordenadas>-12.1936917, -76.9818332</coordenadas>
+    </centro>
+    <centro id="114">
+        <id>114</id>
+        <nombre>PUESTO DE SALUD VALLE ALTO</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2602089</telefono>
+        <direccion>CALLE CALLE ALFONSO UGARTE S/N ALTURA DE LA CUADRA 11. AV. JOSE OLAYA S/N CALLE ALFONSO UGARTE S/N ALTURA DE LA CUADRA 11. AV. JOSE OLAYA VILLA MARIA DEL TRIUNFO LIMA LIMA</direccion>
+        <distrito>Villa Maria del Triunfo</distrito>
+        <horario>8:00-14:00 HORAS</horario>
+        <coordenadas>-12.1418135, -76.9384924</coordenadas>
+    </centro>
+    <centro id="115">
+        <id>115</id>
+        <nombre>PUESTO DE SALUD SAN JUAN DE LA LIBERTAD</nombre>
+        <categoria>I-2</categoria>
+        <telefono>01-2585665</telefono>
+        <direccion>AVENIDA AV. 11 S/N AA.HH. SAN JUAN DE LA LIBERTAD S/N AV. 11 S/N AA.HH. SAN JUAN DE LA LIBERTAD CHORRILLOS LIMA LIMA</direccion>
+        <distrito>Chorrillos</distrito>
+        <horario>8:00 - 14:00</horario>
+        <coordenadas>-12.1908311, -76.9868606</coordenadas>
+    </centro>
+    <centro id="116">
+        <id>116</id>
+        <nombre>CENTRO DE SALUD SANTIAGO DE SURCO</nombre>
+        <categoria>I-3</categoria>
+        <telefono>;2479043</telefono>
+        <direccion>JIRÓN DANIEL CORNEJO 182 SANTIAGO DE SURCO LIMA LIMA</direccion>
+        <distrito>Santiago de Surco</distrito>
+        <horario>7:00 - 19:00</horario>
+        <coordenadas>-12.1472428, -77.0062174</coordenadas>
+    </centro>
+    <centro id="117">
+        <id>117</id>
+        <nombre>PUESTO DE SALUD SANTA ROSA DE BELEN</nombre>
+        <categoria>I-2</categoria>
+        <telefono>012672117</telefono>
+        <direccion>AVENIDA AV. BOLIVAR CUADRA 6 CON JOSE OLAYA S/N S/N AV. BOLIVAR CUADRA 6 CON JOSE OLAYA S/N VILLA MARIA DEL TRIUNFO LIMA LIMA</direccion>
+        <distrito>Villa Maria del Triunfo</distrito>
+        <horario>8:00-14:00 HORAS</horario>
+        <coordenadas>-12.1582504, -76.95047749999999</coordenadas>
+    </centro>
+    <centro id="118">
+        <id>118</id>
+        <nombre>CENTRO DE SALUD SAN GENARO DE VILLA</nombre>
+        <categoria>I-4</categoria>
+        <telefono>01-7152950</telefono>
+        <direccion>AVENIDA AV. PRINCIPAL (ALTURA DE LA CALLE 12) AAHH SAN GENARO AV. PRINCIPAL (ALTURA DE LA CALLE 12) AAHH SAN GENARO CHORRILLOS LIMA LIMA</direccion>
+        <distrito>Chorrillos</distrito>
+        <horario>24 HORAS</horario>
+        <coordenadas>-12.1940041, -77.0210264</coordenadas>
+    </centro>
+    <centro id="119">
+        <id>119</id>
+        <nombre>CENTRO DE SALUD MENTAL COMUNITARIO BALNEARIOS DEL SUR</nombre>
+        <categoria>I-3</categoria>
+        <telefono>998952044</telefono>
+        <direccion>CALLE BARTOLOME HERRERA N° 100-102 MZ A LOTE  10  DE LA AGRUPACION DE FAMILIAS SANTA CRUZ A UNA CUADRA DE LA MUNICIPALIDAD DE PUNTA HERMOSA PUNTA HERMOSA LIMA LIMA</direccion>
+        <distrito>Punta Hermosa</distrito>
+        <horario>7:00 - 19:00</horario>
+        <coordenadas>-12.3338304, -76.8231935</coordenadas>
+    </centro>
+    <centro id="120">
+        <id>120</id>
+        <nombre>CENTRO DE SALUD MENTAL COMUNITARIO VILLA EL SALVADOR</nombre>
+        <categoria>I-3</categoria>
+        <telefono>941707719</telefono>
+        <direccion>OTROS SECTOR 6 GRUPO  5 I 19 AV PASTOR SEVILLA RUTA C PARADERO POLICLINICO VILLA EL SALVADOR LIMA LIMA</direccion>
+        <distrito>Villa El Salvador</distrito>
+        <horario>8:00 - 20:00</horario>
+        <coordenadas>-12.2178475, -76.9492222</coordenadas>
+    </centro>
+
+    <centro id="121">
+        <id>121</id>
+        <nombre>CENTRO DE SALUD MENTAL COMUNITARIO NANCY REYES BAHAMONDE</nombre>
+        <categoria>I-3</categoria>
+        <distrito>CHORRILLOS</distrito>
+        <direccion>CALLE SAN RODOLFO PISO 1 441 CHORRILLOS LIMA LIMA</direccion>
+        <telefono>941932582</telefono>
+        <horario>8:00 - 14:00</horario>
+        <coordenadas>-12.191957, -77.00963650000001</coordenadas>
+    </centro>
+    <centro id="122">
+        <id>122</id>
+        <nombre>CENTRO DE SALUD PORTADA DE MANCHAY</nombre>
+        <categoria>I-3</categoria>
+        <distrito>PACHACAMAC</distrito>
+        <direccion>CALLE CALLE 7 ESQ. CALLE 4 MZ F LT 11 AAHH PORTADA DE MANCHAY PACHACAMAC LIMA LIMA</direccion>
+        <telefono>3456410</telefono>
+        <horario>24 HRS</horario>
+        <coordenadas>-12.088876, -76.88188149999999</coordenadas>
+    </centro>
+    <centro id="123">
+        <id>123</id>
+        <nombre>CENTRO DE SALUD BENJAMIN DOIG</nombre>
+        <categoria>I-3</categoria>
+        <distrito>PUCUSANA</distrito>
+        <direccion>AAHH BENJAMIN DOIG LOSSIO MZ 21 LT 13 PUCUSANA LIMA LIMA</direccion>
+        <telefono>3675013</telefono>
+        <horario>08:00 A 20:00</horario>
+        <coordenadas>-12.0371423, -77.02256779999999</coordenadas>
+    </centro>
+    <centro id="124">
+        <id>124</id>
+        <nombre>CENTRO DE SALUD PUCUSANA</nombre>
+        <categoria>I-3</categoria>
+        <distrito>PUCUSANA</distrito>
+        <direccion>AVENIDA AV LIMA 559 PUCUSANA LIMA LIMA</direccion>
+        <telefono>3676079</telefono>
+        <horario>24 HORAS</horario>
+        <coordenadas>-12.4829065, -76.796182</coordenadas>
+    </centro>
+    <centro id="125">
+        <id>125</id>
+        <nombre>PUESTO DE SALUD HUERTOS DE MANCHAY</nombre>
+        <categoria>I-2</categoria>
+        <distrito>PACHACAMAC</distrito>
+        <direccion>MZ T LOTE S/N SECTOR RINCONADA ALTA PACHACAMAC LIMA LIMA</direccion>
+        <telefono>013455248</telefono>
+        <horario>8:00-14:00</horario>
+        <coordenadas>-12.1166681, -76.8700467</coordenadas>
+    </centro>
+    <centro id="126">
+        <id>126</id>
+        <nombre>CENTRO DE SALUD PACHACAMAC</nombre>
+        <categoria>I-3</categoria>
+        <distrito>PACHACAMAC</distrito>
+        <direccion>AVENIDA AV. COLONIAL S/N Y ESQ. CASTILLA PACHACAMAC LIMA LIMA</direccion>
+        <telefono>994619936</telefono>
+        <horario>24 HORAS</horario>
+        <coordenadas>-12.228132, -76.85799570000002</coordenadas>
+    </centro>
+    <centro id="127">
+        <id>127</id>
+        <nombre>PUESTO DE SALUD OASIS DE VILLA</nombre>
+        <categoria>I-2</categoria>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <direccion>ST 10 GR 2 MZ P LT 15 AA.HH. OASIS DE VILLA VILLA EL SALVADOR LIMA LIMA</direccion>
+        <telefono>999450507</telefono>
+        <horario>08:00 A 14:00 L-S</horario>
+        <coordenadas>-12.2383463, -76.9328853</coordenadas>
+    </centro>
+    <centro id="128">
+        <id>128</id>
+        <nombre>PUESTO DE SALUD EDILBERTO RAMOS</nombre>
+        <categoria>I-2</categoria>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <direccion>AVENIDA AV. TAHUANTINSUYO MZ U S/N SECTOR 10 AA.HH. EDILBERTO RAMOS VILLA EL SALVADOR LIMA LIMA</direccion>
+        <telefono>014932968</telefono>
+        <horario>8:00-14:00</horario>
+        <coordenadas>-12.2451835, -76.92734159999999</coordenadas>
+    </centro>
+    <centro id="129">
+        <id>129</id>
+        <nombre>PUESTO DE SALUD COLLANAC</nombre>
+        <categoria>I-2</categoria>
+        <distrito>PACHACAMAC</distrito>
+        <direccion>AVENIDA AV. VICTOR MALASQUEZ KM 5.5 SECTOR 24 DE JUNIO -COLLANAC PACHACAMAC LIMA LIMA</direccion>
+        <telefono>997425471</telefono>
+        <horario>LUNES A SABADO: 8:00</horario>
+        <coordenadas>-12.1269078, -76.87166409999999</coordenadas>
+    </centro>
+    <centro id="130">
+        <id>130</id>
+        <nombre>PUESTO DE SALUD PICAPIEDRA</nombre>
+        <categoria>I-2</categoria>
+        <distrito>PACHACAMAC</distrito>
+        <direccion>AVENIDA AV REAL MZ J LT 8 CENTRO POBLADO RURAL PICAPIEDRA-PACHACAMAC PACHACAMAC LIMA LIMA</direccion>
+        <telefono>SIN NUMERO</telefono>
+        <horario>06 HORAS / 08:00 A 1</horario>
+        <coordenadas>-12.1874452, -76.8679399</coordenadas>
+    </centro>
+    <centro id="131">
+        <id>131</id>
+        <nombre>CENTRO DE SALUD NUEVO LURIN - KM. 40</nombre>
+        <categoria>I-3</categoria>
+        <distrito>LURIN</distrito>
+        <direccion>AVENIDA AV. 28 JULIO MZ 18 LT 20 NUEVO LURIN - KM 40 ANTIGUA PANAMERICANA SUR LURIN LIMA LIMA</direccion>
+        <telefono>01-4302688</telefono>
+        <horario>08:00 - 20:00</horario>
+        <coordenadas>-12.2836862, -76.8569613</coordenadas>
+    </centro>
+    <centro id="132">
+        <id>132</id>
+        <nombre>MANCHAY ALTO</nombre>
+        <categoria>I-2</categoria>
+        <distrito>PACHACAMAC</distrito>
+        <direccion>AVENIDA AV LAS CASUARINAS MZ E LT 18 CENTRO POBLADO RURAL MANCHAY ALTO PACHACAMAC LIMA LIMA</direccion>
+        <telefono>989860829</telefono>
+        <horario>06 HORAS / 08:00 A 1</horario>
+        <coordenadas>-12.1546194, -76.8503281</coordenadas>
+    </centro>
+    <centro id="133">
+        <id>133</id>
+        <nombre>PUESTO DE SALUD VIRGEN DE LA ASUNCION</nombre>
+        <categoria>I-2</categoria>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <direccion>OTROS SECTOR 3 GRUPO 3 MANZANA P-1 LOTE 4 B VILLA EL SALVADOR LIMA LIMA</direccion>
+        <telefono>943715905</telefono>
+        <horario>07:00 - 19:00</horario>
+        <coordenadas>-12.2173543, -76.9292169</coordenadas>
+    </centro>
+    <centro id="134">
+        <id>134</id>
+        <nombre>CENTRO DE SALUD MENTAL COMUNITARIO EL SOL DE VILLA</nombre>
+        <categoria>I-3</categoria>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <direccion>OTROS SECTOR 2 GRUPO 6 MZ R LOTE 1 AL 4 VILLA EL SALVADOR LIMA LIMA</direccion>
+        <telefono>987718944</telefono>
+        <horario>7:30 A 19:30 PM</horario>
+        <coordenadas>-12.2015818, -76.9422508</coordenadas>
+    </centro>
+</centros_medicos>

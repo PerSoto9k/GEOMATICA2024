@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centros Médicos de Nivel 1 en Lima Metropolitana Sur</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet-omnivore@latest/leaflet-omnivore.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.draw/dist/leaflet.draw.css" />
+    <script src="https://unpkg.com/leaflet.draw/dist/leaflet.draw.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=TU_API_KEY_DE_GOOGLE&callback=initMap" async defer></script>
+</head>
+
+<body>
+    <p id="propuesta">PROPUESTA DE MEJORA DE ACCESIBILIDAD A CENTROS DE SALUD</p>
+    <h1>Centros Médicos de Nivel 1 en Lima Metropolitana</h1>
+    <h5>Para más información consulta la tabla de centros médicos en la parte inferior de la página.</h5>
+    <div id="mi_mapa"></div>
+    <a href="index.html" class="retorno">REGRESAR A NIVELES</a>
+
+    <div><button id="verTablaBtn">VER RELACIÓN DE CENTROS MÉDICOS</button></div>
+    <div id="ordenacionButtons" style="display: flex; justify-content: space-between; margin: 30px 30px;">
+        <button id="ordenarNombre" class="ordenar-btn">ORDENAR POR NOMBRE</button>
+        <button id="ordenarCategoria" class="ordenar-btn">ORDENAR POR CATEGORÍA</button>
+        <button id="ordenarDistrito" class="ordenar-btn">ORDENAR POR DISTRITO</button>
+        <button id="ordenarMasCercano" class="ordenar-btn">ORDENAR POR MÁS CERCANO</button>
+    </div> 
+    
+
+    <div id="tabla-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Categoría</th>
+                    <th>Teléfono</th>
+                    <th>Dirección</th>
+                    <th>Distrito</th>
+                    <th>Horario</th>   
+                    <th>Coordenadas</th> 
+                </tr>
+            </thead>
+            <tbody id="tablaBody">
+                <!-- filas se agregarán aca -->
+            </tbody>
+        </table>
+    </div>
+
+    <footer>
+        <p>Autor: Percy G. Soto Huerto</p>
+        <p class="proyecto">Proyecto de aplicación profesional</p>
+        <p>SENCICO 2024</p>
+    </footer>
+
+    <script>
+        // Mapa centrado en Lima
+        const map = L.map('mi_mapa').setView([-12.0464, -77.0428], 11);
+    
+        // Capa base OpenStreetMap
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        let userLocation = { lat: null, lng: null }; // variable ubicación usuario
+        let centrosArray = []; // array para guardar centros médicos
+    
+        // Obtener ubicación de usuario y mensaje de "¡Estás aquí!"
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(
+                function (position) {
+                    const usuLat = position.coords.latitude;
+                    const usuLng = position.coords.longitude;
+
+                    // Actualizar la variable userLocation
+                    userLocation.lat = usuLat;
+                    userLocation.lng = usuLng;
+
+                    // Mostrar marcador en el mapa
+                    L.marker([usuLat, usuLng]).addTo(map)
+                        .bindPopup('¡Estás aquí!').openPopup();
+                },
+                function (error) {
+                    console.error('Error al obtener ubicación: ', error.message);
+                    alert('No se pudo obtener tu ubicación: ' + error.message);
+                }
+            );
+        } else {
+            alert('La geolocalización no es compatible con este navegador.');
+        }
+    
+        const bounds = [
+            [-12.5, -77.5],  // Latitud y longitud inferior izquierda (suroeste)
+            [-11.5, -76.5]   // Latitud y longitud superior derecha (noreste)
+        ];
+        map.setMaxBounds(bounds); //  límites máximos del mapa
+    
+        // nivel de zoom mínimo y máximo
+        map.setMinZoom(10); 
+        map.setMaxZoom(18);
+    
+        // Cargar centros médicos desde XML
+        fetch('proyxml1.xml')
+            .then(response => response.text())
+            .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+            .then(xml => {
+                const centrosMedicos = xml.getElementsByTagName('centro');
+                const tablaBody = document.getElementById('tablaBody');
+    
+                const markerToRowMap = new Map();
+    
+                Array.from(centrosMedicos).forEach(centro => {
+                    const nombre = centro.getElementsByTagName('nombre')[0].textContent;
+                    const categoria = centro.getElementsByTagName('categoria')[0].textContent;
+                    const telefono = centro.getElementsByTagName('telefono')[0].textContent;
+                    const direccion = centro.getElementsByTagName('direccion')[0].textContent;                   
+                    const distrito = centro.getElementsByTagName('distrito')[0].textContent;
+                    const horario = centro.getElementsByTagName('horario')[0].textContent;
+                    const coordenadas = centro.getElementsByTagName('coordenadas')[0].textContent.split(', '); 
+    
+                    const lat = parseFloat(coordenadas[0]);
+                    const lon = parseFloat(coordenadas[1]);
+    
+                    // marcador 
+                    const marker = L.marker([lat, lon]).addTo(map)
+                        .bindPopup(`<strong>${nombre}</strong><br>${direccion}<br><br>Telf: ${telefono}<br>Horario: ${horario}`);
+    
+                    // Agregar fila a tabla con las coordenadas
+                    const fila = document.createElement('tr');
+                    fila.innerHTML = `
+                        <td>${nombre}</td>
+                        <td>${categoria}</td>
+                        <td>${telefono}</td>
+                        <td>${direccion}</td>  
+                        <td>${distrito}</td>                        
+                        <td>${horario}</td>
+                        <td>${lat}, ${lon}</td>`; // Mostrar coordenadas en nueva columna
+                    tablaBody.appendChild(fila);
+    
+                    // marcador a la fila correspondiente
+                    markerToRowMap.set(marker, fila);
+    
+                    // Resaltar la fila cuando el marcador sea clickeado
+                    marker.on('click', () => {
+                        // Eliminar resaltado de todas las filas
+                        tablaBody.querySelectorAll('tr').forEach(row => {
+                            row.style.backgroundColor = ''; // Quitar color de fondo
+                        });
+    
+                        // Resaltar la fila correspondiente al marcador
+                        fila.style.backgroundColor = 'yellow'; // Agregar color amarillo
+                    });
+
+                    centrosArray.push({ nombre, categoria, telefono, distrito, horario, lat, lon, fila, marker });
+                    });
+                    // Ordenar por distancia
+                    const ordenarMasCercanoBtn = document.getElementById('ordenarMasCercano');
+                    if (ordenarMasCercanoBtn) {
+                        ordenarMasCercanoBtn.addEventListener('click', () => {
+                            if (userLocation.lat !== null && userLocation.lng !== null) {
+                                centrosArray.forEach(centro => {
+                                    centro.distancia = calcularDistancia(userLocation.lat, userLocation.lng, centro.lat, centro.lon);
+                                });
+
+                                centrosArray.sort((a, b) => a.distancia - b.distancia);
+
+                                tablaBody.innerHTML = '';
+                                centrosArray.forEach(centro => tablaBody.appendChild(centro.fila));
+                            } else {
+                                alert('No se pudo determinar tu ubicación.');
+                            }
+                        });
+                    }
+                });
+
+                // Función para calcular distancia entre dos puntos (Haversine)
+                function calcularDistancia(lat1, lon1, lat2, lon2) {
+                    const R = 6371; // Radio de la Tierra en km
+                    const dLat = (lat2 - lat1) * Math.PI / 180;
+                    const dLon = (lon2 - lon1) * Math.PI / 180;
+                    const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+                        Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                        Math.sin(dLon / 2) * Math.sin(dLon / 2);
+                    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+                    return R * c; // Distancia en km
+                }
+    
+                // Función para ordenar la tabla por nombre alfabéticamente
+                const ordenarNombreBtn = document.getElementById('ordenarNombre');
+                ordenarNombreBtn.addEventListener('click', () => {
+                    const filas = Array.from(tablaBody.querySelectorAll('tr'));
+    
+                    // Ordenar las filas por el contenido de la primera celda (nombre)
+                    filas.sort((a, b) => {
+                        const nombreA = a.cells[0].textContent.toLowerCase();
+                        const nombreB = b.cells[0].textContent.toLowerCase();
+                        return nombreA.localeCompare(nombreB);
+                    });
+    
+                    // Vaciar la tabla y agregar las filas ordenadas
+                    tablaBody.innerHTML = '';
+                    filas.forEach(fila => tablaBody.appendChild(fila));
+                });
+    
+                // Función para ordenar la tabla por categoría
+                const ordenarCategoriaBtn = document.getElementById('ordenarCategoria');
+                ordenarCategoriaBtn.addEventListener('click', () => {
+                    const filas = Array.from(tablaBody.querySelectorAll('tr'));
+    
+                    // Ordenar las filas por el contenido de la segunda celda (categoría)
+                    filas.sort((a, b) => {
+                        const categoriaA = a.cells[1].textContent.toLowerCase();
+                        const categoriaB = b.cells[1].textContent.toLowerCase();
+                        return categoriaA.localeCompare(categoriaB);
+                    });
+    
+                    // Vaciar la tabla y agregar las filas ordenadas
+                    tablaBody.innerHTML = '';
+                    filas.forEach(fila => tablaBody.appendChild(fila));
+                });
+    
+                // Función para ordenar la tabla por distrito
+                const ordenarDistritoBtn = document.getElementById('ordenarDistrito');
+                ordenarDistritoBtn.addEventListener('click', () => {
+                    const filas = Array.from(tablaBody.querySelectorAll('tr'));
+    
+                    // Ordenar las filas por el contenido de la quinta celda (distrito)
+                    filas.sort((a, b) => {
+                        const distritoA = a.cells[4].textContent.toLowerCase();
+                        const distritoB = b.cells[4].textContent.toLowerCase();
+                        return distritoA.localeCompare(distritoB);
+                    });
+    
+                    // Vaciar la tabla y agregar las filas ordenadas
+                    tablaBody.innerHTML = '';
+                    filas.forEach(fila => tablaBody.appendChild(fila));
+                });
+                const ordenarMasCercanoBtn = document.getElementById('ordenarMasCercano');
+                ordenarMasCercanoBtn.addEventListener('click', () => {
+                    // Calcular la distancia entre cada centro médico y la ubicación del usuario
+                    centrosArray.forEach(centro => {
+                        const distancia = calcularDistancia(userLocation.lat, userLocation.lng, centro.lat, centro.lon);
+                        centro.distancia = distancia;
+                    });
+                // Ordenar los centros médicos por distancia
+                centrosArray.sort((a, b) => a.distancia - b.distancia);
+
+                // Vaciar la tabla y agregar las filas ordenadas
+                tablaBody.innerHTML = '';
+                centrosArray.forEach(centro => tablaBody.appendChild(centro.fila));
+            });        
+    
+        // Mostrar/ocultar tabla
+        const tablaContainer = document.getElementById('tabla-container');
+        tablaContainer.style.display = 'none'; // Asegúrate de que esté oculto inicialmente
+        document.getElementById('verTablaBtn').addEventListener('click', () => {
+            tablaContainer.style.display = tablaContainer.style.display === 'none' ? 'block' : 'none';
+        });
+
+        // ruta del JSON
+        const geojsonPath = './js/JSON/limasur.geojson';// carga JSON 
+        fetch(geojsonPath)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Error al cargar el GeoJSON: ${response.statusText}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            // Añadir capa GeoJSON
+            L.geoJSON(data, {
+                style: {
+                    color: 'rgba(0, 0, 155, 0.27)',
+                    weight: 3
+                },           
+            }).addTo(map);
+        })
+        .catch(error => {
+            console.error('Error al cargar el archivo GeoJSON:', error);
+        });
+
+         // mensaje permanente "DISTRITOS DE LIMA SUR" 
+         const messageCoordinates = [-12.225453224649511, -76.79094612350114];
+        const messageIcon = L.divIcon({
+            className: 'popup-m',
+            html: 'DISTRITOS DE LIMA SUR',
+            iconSize: [80, 40], 
+            iconAnchor: [10, 25] 
+        });
+        // marcador con el divIcon en las coordenadas 
+        L.marker(messageCoordinates, { icon: messageIcon }).addTo(map);
+
+    </script>
+    
+</body>
+</html>

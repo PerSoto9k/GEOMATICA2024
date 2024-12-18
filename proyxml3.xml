@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<centros_medicos>
+    <centro id="1">
+        <id>1</id>
+        <nombre>INO DR. FRANCISCO CONTRERAS C.(Instituto Nacional de Oftalmología)</nombre>
+        <categoria>III-2</categoria>
+        <telefono> 202-9060</telefono>
+        <direccion>Av. Tingo María 398</direccion>
+        <distrito>LIMA</distrito>
+        <horario> 24 HORAS</horario>
+        <coordenadas>-12.051154352295777, -77.0551863</coordenadas>
+    </centro>
+    <centro id="2">
+        <id>2</id>
+        <nombre>INSTITUTO NACIONAL DE SALUD DEL NIÑO</nombre>
+        <categoria>III-2</categoria>
+        <telefono> (51) 330-0066</telefono>
+        <direccion>Av. Brasil 660</direccion>
+        <distrito>BREÑA</distrito>
+        <horario> 07:00 - 19:00</horario>
+        <coordenadas>-12.06546143981114, -77.04625743923013</coordenadas>
+    </centro>
+    <centro id="3">
+        <id>3</id>
+        <nombre>INSTITUTO NACIONAL DE ENFERMEDADES NEOPLASICAS</nombre>
+        <categoria>III-2</categoria>
+        <telefono> 051-2016500</telefono>
+        <direccion>Av. Angamos Este 2520</direccion>
+        <distrito>SURQUILLO</distrito>
+        <horario> 24 HORAS</horario>
+        <coordenadas>-12.112470066723539, -76.99826718979682</coordenadas>
+    </centro>
+    <centro id="4">
+        <id>4</id>
+        <nombre>INSTITUTO NACIONAL DE SALUD MENTAL "HONORIO DELGADO - HIDEYO NOGUCHI"</nombre>
+        <categoria>III-2</categoria>
+        <telefono> 6149200</telefono>
+        <direccion>Av. Eloy Espinoza Saldaña 709</direccion>
+        <distrito>SAN MARTIN DE PORRES</distrito>
+        <horario> 24 HORAS</horario>
+        <coordenadas>-12.02019101382449, -77.0555323324306</coordenadas>
+    </centro>
+    <centro id="5">
+        <id>5</id>
+        <nombre>INSTITUTO NACIONAL DE SALUD NIÑO SAN BORJA</nombre>
+        <categoria>III-2</categoria>
+        <telefono> (01) 2300600</telefono>
+        <direccion>Av. Javier Prado Este 3101</direccion>
+        <distrito>SAN BORJA</distrito>
+        <horario> 0:01 - 11:59</horario>
+        <coordenadas>-12.086063570089904, -76.99249604654497</coordenadas>
+    </centro>
+    <centro id="6">
+        <id>6</id>
+        <nombre>INSTITUTO NACIONAL MATERNO PERINATAL</nombre>
+        <categoria>III-2</categoria>
+        <telefono> 3280988</telefono>
+        <direccion>Jr. Sta. Rosa 941</direccion>
+        <distrito>LIMA</distrito>
+        <horario> 24 HORAS</horario>
+        <coordenadas>-12.052756857833595, -77.02216269117595</coordenadas>
+    </centro>
+    <centro id="7">
+        <id>7</id>
+        <nombre>INSTITUTO NACIONAL DE CIENCIAS NEUROLOGICAS</nombre>
+        <categoria>III-2</categoria>
+        <telefono> 4117700</telefono>
+        <direccion>Jr. Áncash 1271</direccion>
+        <distrito>LIMA</distrito>
+        <horario> 24 HORAS AREAS CRITI</horario>
+        <coordenadas>-12.046113385890072, -77.01588327844121</coordenadas>
+    </centro>
+</centros_medicos>

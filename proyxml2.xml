@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<centros_medicos>
+    <centro id="1">
+        <id>1</id>
+        <nombre>HOSPITAL DE VENTANILLA</nombre>
+        <categoria>II-1</categoria>
+        <horario>24 HORAS</horario>
+        <emergencias_24h>SI</emergencias_24h>
+        <urgencias_24h>SI</urgencias_24h>
+        <servicios>Medicina General, Cirugía General, Pediatría, Neumología, Cirugía Plástica, Ginecología, Obstetricia, Traumatología, Psicología, Cardiología, Nutrición, Odontología, Preventorio de Cáncer, Infectología, Gastroenterología, Medicina Interna, Urología, Anestesiología, Psiquiatría, Ecografías, Mamografías, Oftalmología, Neurología, Otorrinolaringología, Laboratorio</servicios>
+        <distrito>VENTANILLA</distrito>
+        <telefono>640-1451 / 640-1452</telefono>
+        <direccion>AVENIDA AV. PEDRO BELTRAN CALLE 3 S/N (REF. AL COSTADO CO VENTANILLA), CALLAO</direccion>
+        <coordenadas>-11.872633057602393, -77.12551989607633</coordenadas>
+    </centro>
+    <centro id="2">
+        <id>2</id>
+        <nombre>HOSPITAL MARIA AUXILIADORA</nombre>
+        <categoria>III-1</categoria>
+        <horario>00:00 - 24:00</horario>
+        <emergencias_24h>SI</emergencias_24h>
+        <urgencias_24h>SI</urgencias_24h>
+        <servicios>Medicina Interna, Medicina General, Pediatría, Neonatología, Ginecología, Obstetricia, Cirugía General, Cirugía Pediátrica, Cirugía Plástica, Cirugía de Cabeza, Cuello y Maxilo Facial, Cirugía de Torax y Cardiovascular, Neurología, Neurocirugía, Cardiología, Nefrología, Neumología, Oncología Médica, Oncología Ginecológica, Oncología Quirúrgica, Psiquiatría, Reumatología, Dermatología, Endocrinología, Geriatría, Hematología, Enfermedades Infecciosas y Tropicales, Radiología Simple, Ecografía General y Especializada, Mamografía, Eco Doppler Arterial y Venoso, Intervencionista, Patología Mamaria, Radioterapia, Odontestomatología, Psicología, Neuropsicología, Servicio Social, Laboratorio Clínico, Banco de Sangre, Centro Obstétrico, Unidad de Dolor y Cuidado Paliativo, Centro Internacional de Vacunación</servicios>
+        <distrito>SAN JUAN DE MIRAFLORES</distrito>
+        <telefono>(01) 2171818</telefono>
+        <direccion>CALLE MIGUEL IGLESIAS N°968, SAN JUAN DE MIRAFLORES, LIMA</direccion>
+        <coordenadas>-12.161065127534425, -76.95837428474282</coordenadas>
+    </centro>
+    <centro id="3">
+        <id>3</id>
+        <nombre>HOSPITAL VICTOR LARCO HERRERA</nombre>
+        <categoria>III-1</categoria>
+        <horario>24 HORAS</horario>
+        <emergencias_24h>SI</emergencias_24h>
+        <urgencias_24h>SI</urgencias_24h>
+        <servicios>Emergencias y Urgencias, Consultas médicas (especialidades en salud mental), Hospitalización, Psicoterapia, Medicina general, Psiquiatría, Psicología, Rehabilitación y Terapias, Servicios de farmacia, Tratamientos para adicciones, Terapia ocupacional, Apoyo social, Evaluación neuropsicológica, Servicios de laboratorio</servicios>
+        <distrito>MAGDALENA DEL MAR</distrito>
+        <telefono>(01) 2615516</telefono>
+        <direccion>AVENIDA AUGUSTO PEREZ ARANIBAR N° 600, MAGDALENA DEL MAR, LIMA </direccion>
+        <coordenadas>-12.097483998310373, -77.06603136719806</coordenadas>
+    </centro>
+    <centro id="4">
+        <id>4</id>
+        <nombre>HOSPITAL SAN JOSE</nombre>
+        <categoria>II-2</categoria>
+        <horario>24 HORAS</horario>
+        <emergencias_24h>SI</emergencias_24h>
+        <urgencias_24h>SI</urgencias_24h>
+        <servicios>Medicina Interna, Medicina Física y Rehabilitación, Cardiología, Medicina Alternativa, Endocrinología, Gastroenterología, Neumología, Neurología, Reumatología, Dermatología, Infectología, Psiquiatría, Cirugía General, Traumatología, Oftalmología, Urología, Pediatría, Gineco-Obstetricia, Psicología, Odontoestomatología, Anestesiología, Salud ocupacional, Patología Clínica y Anatomía Patológica, Inmunizaciones, Prevención y Control de Tuberculosis (TBC), Prevención y Control de Infecciones de Transmisión Sexual y VIH/SIDA, Centro de Desarrollo Juvenil (C.D.J), Prevención y Control del Cáncer, Farmacia, Nutrición</servicios>
+        <distrito>CARMEN DE LA LEGUA-REYNOSO</distrito>
+        <telefono>(01) 7481898</telefono>
+        <direccion>JIRÓN LAS MAGNOLIAS 475 CARMEN DE LA LEGUA-REYNOSO, CALLAO</direccion>
+        <coordenadas>-12.04175751136943, -77.09815133473747</coordenadas>
+    </centro>
+    <centro id="5">
+        <id>5</id>
+        <nombre>HOSPITAL NACIONAL DOS DE MAYO</nombre>
+        <categoria>III-1</categoria>
+        <horario>24 HORAS</horario>
+        <emergencias_24h>SI</emergencias_24h>
+        <urgencias_24h>SI</urgencias_24h>
+        <servicios>Medicina: Medicina Interna, Especialidades Médicas: Enfermedades Infecciosas y Tropicales, Cardiología, Dermatología, Endocrinología, Reumatología e Inmunología, Nefrología, Gastroenterología, Neurología, Salud Mental, Medicina Física y Rehabilitación, Neumología, Oncología Médica, Hematología Clínica, Cirugía: Cirugía General, Neurocirugía, Urología, Cirugía Plástica, Traumatología, Cirugía de Cabeza y Cuello, Otorrinolaringología, Oftalmología, Cirugía Pediátrica, Cirugía de Tórax y Cardiovascular, Gineco-Obstetricia: Ginecología, Obstetricia, Reproducción Humana, Oncología Ginecológica, Pediatría: Pediatría, Neonatología, Odontoestomatología: Cariología y Endodoncia</servicios>
+        <distrito>LIMA</distrito>
+        <telefono>981127991</telefono>
+        <direccion>PARQUE HISTORIA DE LA MEDICINA PERUANA S/N ALTURA CUADRA 13 AV GRAU S/N PARQUE HISTORIA DE LA MEDICINA PERUANA S/N ALTURA CUADRA 13 AV GRAU, LIMA, LIMA</direccion>
+        <coordenadas>-12.056730828890332, -77.01604798934851</coordenadas>
+    </centro>
+    <centro id="6">
+        <id>6</id>
+        <nombre>HOSPITAL DE EMERGENCIAS VILLA EL SALVADOR</nombre>
+        <categoria>II-2</categoria>
+        <horario>24 HORAS</horario>
+        <emergencias_24h>SI</emergencias_24h>
+        <urgencias_24h>SI</urgencias_24h>
+        <servicios>Anestesiología, Cardiología, Cirugía general, Cirugía de cabeza y cuello, Cirugía Oncológica y Gineco-oncológica, Cirugía Pediátrica, Cirugía Plástica, Dermatología, Endocrinología, Gastroenterología, Geriatría, Ginecología y Obstetricia, Hematología clínica, Infectología, Medicina Interna, Nefrología, Neonatología, Neumología, Neurocirugía, Neurología, Nutrición, Odontología, Oftalmología, Oncología, Otorrinolaringología, Pediatría, Psicología, Psiquiatría, Rehabilitación, Reumatología, Traumatología y ortopedia, Urología, Telemedicina crónicos, Vacunación, Shock trauma y reanimación, Emergencias generales, Emergencias pediátricas, Emergencias Gineco-obstétricas, Emergencias de traumatología y ortopedia, Emergencias de cirugía y neurocirugía, Emergencias y desastres, Observación de emergencia, Inyectables y nebulizaciones, Hemodiálisis de emergencia, Laboratorio de emergencia, Farmacia de emergencia, Admisión de emergencia, Atención de partos, Atención neonatal, Intervenciones quirúrgicas, Recuperación Post anestésica, Unidad de Cirugía Ambulatoria (UCA), Hospitalización de medicina, Hospitalización de cirugía, Hospitalización pediátrica, Hospitalización Gineco-obstétrica, Hospitalización Neonatal, Hospitalización de salud mental, Hospitalización de Alto Riesgo Obstétrico, Hospitalización de cirugía oncológica, UCI general para adultos, UCI pediátrica, UCI Neonatal, Cuidados intermedios, Laboratorio Clínico, Anatomía Patológica, Radiología, Nutrición, Farmacia, Servicio social, Banco de Sangre tipo 2, Atenciones de enfermería, Unidad de Seguros, Central de esterilización, Servicio de referencias y contrarreferencias</servicios>
+        <distrito>VILLA EL SALVADOR</distrito>
+        <telefono>(01) 6409875</telefono>
+        <direccion>AVENIDA PASTOR SEVILLA NÚMERO 000 DISTRITO VILLA EL SALVADOR, LIMA</direccion>
+        <coordenadas>-12.232945544086034, -76.93433824522356</coordenadas>
+    </centro>
+    <centro id="7">
+        <id>7</id>
+        <nombre>HOSPITAL CARLOS LANFRANCO LA HOZ</nombre>
+        <categoria>II-2</categoria>
+        <horario>24 HORAS</horario>
+        <emergencias_24h>SI</emergencias_24h>
+        <urgencias_24h>SI</urgencias_24h>
+        <servicios>Medicina Interna, Endocrinología, Gastroenterología, Endoscopia, Colonoscopia, Cardiología Riesgo quirúrgico, Electrocardiograma, Neurología, Neumología, Dermatología, Reumatología, Psiquiatría, Medicina Física y Rehabilitación Terapia Física / Terapia ocupacional, Infectología, Salud Ocupacional, Pediatría, Atención al recién nacido, Ginecología, Estrategia Sanitaria de Control de Infecciones de transmisión Sexual y SIDA - ESCITSS, Control Prenatal y Control Puerperio Displasia, Obstetricia Planificación Familiar Psicoprofilaxis, Obstétrica, Monitoreo Fetal, Consejería de Lactancia Materna (Gestantes), Consejería de Salud Sexual y Reproductiva, Atención Integral del Adolescente, Cirugía General, Cirugía Plástica y Reconstruitiva, Neurocirugía, Cirugía Cardiovascular, Traumatología, Urología, Otorrinolaringología, Oftalmología, Anestesiología, Terapia del Dolor Consulta Ambulatoria Pre-Anestésica, Odontoestomatología, Atención Estomatológica Especializada, Odontopediatría, Terapia Endodóntica, Radiografías Intraorales, Cirugía Oral, Servicio Social, Intervenciones en Hospitalización, Intervenciones en Emergencia, Club del Adulto Mayor, Farmacia, Dispensación de Medicamentos, Atención de Farmacia Clínica, Atención en Farmacotecnia, Consultorio Ambulatorio, Consejería Nutricional, Patología Clínica, Laboratorio Central - Emergencia, Anatomía Patológica, Banco de Sangre, Diagnóstico por Imágenes, Rayos X, Ecografía, Ecografía Doppler, Psicología Mamis, Psicología Especializada, Psicología del Adulto, Psicología de Parejas, Consultorio de Targa, Consultorio del Niño y del Adolescente, Atención en Adicciones, Inmunizaciones, Tamizaje Neonatal, Prevención y Control de la Tuberculosis, Consultorio de Enfermería en Niños Consejería en Lactancia Materna, Consultorio Targa</servicios>
+        <distrito>PUENTE PIEDRA</distrito>
+        <telefono>(511) 548-5334 / 548-3331 / 548-4481</telefono>
+        <direccion>AVENIDA AV. SAENZ PEÑA - CUADRA 6 S/N S/N AV. SAENZ PEÑA - CUADRA 6 S/N, PUENTE PIEDRA, LIMA</direccion>
+        <coordenadas>-11.862764698995504, -77.07954226571867</coordenadas>
+    </centro>    
+    <centro id="8">
+        <id>8</id>
+        <nombre>HOSPITAL DE EMERGENCIAS PEDIÁTRICAS</nombre>
+        <categoria>III-E</categoria>
+        <horario>24 HORAS</horario>
+        <emergencias_24h>SI</emergencias_24h>
+        <urgencias_24h>SI</urgencias_24h>
+        <servicios>Consultorios de Urgencia, Hospitalización, Emergencias, Cuidados Intensivos, Laboratorio, Hemoterapia y Banco de Sangre, Anatomía Patológica, Diagnóstico por Imágenes, Farmacia, Nutrición, Sistema de Referencias y Contrarreferencias, Medicina Pediátrica, Cirugía Pediátrica, Traumatología Pediátrica, Neurocirugía Pediátrica, Anestesiología, Cirugía Plástica, Neonatología, Neumología Pediátrica</servicios>
+        <distrito>LA VICTORIA</distrito>
+        <telefono>(01) 2158838</telefono>
+        <direccion>AVENIDA AV GRAU 854 - PROLONG JR HUAMANGA 147 DISTRITO LA VICTORIA, LIMA</direccion>
+        <coordenadas>-12.058364716976508, -77.02159929892663</coordenadas>
+    </centro>    
+    <centro id="9">
+        <id>9</id>
+        <nombre>HOSPITAL SAN JUAN DE LURIGANCHO</nombre>
+        <categoria>II-2</categoria>
+        <horario>24 HORAS</horario>
+        <emergencias_24h>SI</emergencias_24h>
+        <urgencias_24h>SI</urgencias_24h>
+        <servicios>Medicina interna, Pediatría, Gineco-obstetricia, Cirugía, Gastroenterología, Psiquiatría, Medicina de Rehabilitación, Dermatología, Neumología, Traumatología, Oftalmología, Laboratorio, Rayos X, Ecografías, Tomografía, Farmacia, Emergencia, Enfermería, Odontología, Servicio Social, Epidemiología y Salud Ambiental</servicios>
+        <distrito>SAN JUAN DE LURIGANCHO</distrito>
+        <telefono>921718235</telefono>
+        <direccion>AVENIDA ENTRE PARADERO 10 Y 11 DE AV. CANTO GRANDE (HUASCAR) ENTRE PARADERO 10 Y 11 DE AV. CANTO GRANDE (HUASCAR) SAN JUAN DE LURIGANCHO, LIMA</direccion>
+        <coordenadas>-11.966371388988513, -77.00349373135352</coordenadas>
+    </centro>
+    <centro id="10">
+        <id>10</id>
+        <nombre>INSTITUTO NACIONAL DE REHABILITACION "DRA. ADRIANA REBAZA FLORES" AMISTAD PERU - JAPON</nombre>
+        <categoria>III-E</categoria>
+        <horario>LUN-VIE 8 AM–7 PM / SAB 08 AM - 1 PM</horario>
+        <emergencias_24h>NO</emergencias_24h>
+        <urgencias_24h>NO</urgencias_24h>
+        <servicios>Medicina Física y Rehabilitación, Terapia Física, Terapia Ocupacional, Psicología, Evaluaciones Médicas Especializadas, Fisioterapia, Atención Integral para Personas con Discapacidad, y Tratamiento Postquirúrgico</servicios>
+        <distrito>CHORRILLOS</distrito>
+        <telefono>(01) 7173200</telefono>
+        <direccion>AVENIDA PROLONGACIÓN DEFENSORES DEL MORRO CUADRA 2 S/N, CHORRILLOS, LIMA</direccion>
+        <coordenadas>-12.191862191012538, -77.0032213265585</coordenadas>
+    </centro>
+    <centro id="11">
+        <id>11</id>
+        <nombre>HOSPITAL HERMILIO VALDIZAN</nombre>
+        <categoria>III-1</categoria>
+        <horario>24 HORAS</horario>
+        <emergencias_24h>SI</emergencias_24h>
+        <urgencias_24h>SI</urgencias_24h>
+        <servicios>Salud Mental del Niño y Adolescente, Salud Mental del Adulto y Geronte, Salud Mental en Adicciones, Salud Mental en Familia, Servicio de Psicología Diagnóstico, Servicio de Farmacia, Servicio de Odontoestomatología, Servicio de Nutrición, Servicio Social, Servicios Médicos, Dpto. de Apoyo al Tratamiento, Dpto. de Promoción de la Salud Mental, Dpto. de Enfermería, Dpto. de Rehabilitación en Salud Mental, Dpto. de Apoyo al Diagnóstico, Dpto. de Modificación del Comportamiento, Of. de Epidemiología y Salud Ambiental, Of. de Apoyo a la Docencia e Investigación, Centro de Rehabilitación de Ñaña</servicios>
+        <distrito>SANTA ANITA</distrito>
+        <telefono>(01) 7481990</telefono>
+        <direccion>CARRETERA CARRETERA CENTRAL KM 3.5 SANTA ANITA CARRETERA CENTRAL KM 3.5 SANTA ANITA, SANTA ANITA, LIMA</direccion>
+        <coordenadas>-12.046623729100439, -76.9457015749429</coordenadas>
+    </centro>  
+    <centro id="12">
+        <id>12</id>
+        <nombre>Hospital Nacional Hipólito Unanue</nombre>
+        <categoria>III-1</categoria>
+        <horario>24 horas</horario>
+        <emergencias_24h>SI</emergencias_24h>
+        <urgencias_24h>SI</urgencias_24h>
+        <servicios>Gastroenterología, Cardiología, Nefrología, Enfermedades Infecciosas y Tropicales, Dermatología, Endocrinología, Hemodiálisis, Neurología, Geriatría, Reumatología, Oncología, Hematología, Cirugía General y Digestiva, Cirugía Pediátrica</servicios>
+        <distrito>El Agustino</distrito>
+        <telefono>(01) 3851121</telefono>
+        <direccion>Av. César Vallejo 1390, EL AGUSTINO, LIMA</direccion>
+        <coordenadas>-12.040174, -76.993195</coordenadas>
+    </centro>    
+    <centro id="13">
+        <id>13</id>
+        <nombre>Hospital Daniel A. Carrión</nombre>
+        <categoria>III-1</categoria>
+        <horario>24 horas</horario>
+        <emergencias_24h>SI</emergencias_24h>
+        <urgencias_24h>SI</urgencias_24h>
+        <servicios>Cardiología, Cirugía Pediátrica, Ginecología y Obstetricia, Medicina Interna II, Nefrología, Obstetricia, Psicología, Urología, Cirugía II, Endocrinología, Infectología, Medicina y Rehabilitación, Nutrición y Dietética, Oncología, Oftalmología, Reumatología, Cirugía de Cabeza, Cuello y Maxilofacial, Enfermería, Gastroenterología, Medicina Interna I, Neumología, Neurocirugía, Odontoestomatología, Otorrinolaringología</servicios>
+        <distrito>Bellavista</distrito>
+        <telefono>614-7474</telefono>
+        <direccion>Av. Guardia Chalaca Nº 2176, BELLAVISTA, CALLAO</direccion>
+        <coordenadas>-12.062733, -77.123617</coordenadas>
+    </centro>    
+    <centro id="14">
+        <id>14</id>
+        <nombre>Hospital de Emergencias José Casimiro Ulloa</nombre>
+        <categoria>III-E</categoria>
+        <horario>00:00 - 24:00</horario>
+        <emergencias_24h>SI</emergencias_24h>
+        <urgencias_24h>SI</urgencias_24h>
+        <servicios>Consulta Externa, Ginecología Quirúrgica, Gastroenterología, Neumología, Otorrinolaringología, Traumatología, Cirugía General y Digestiva, Neurocirugía, Medicina Física y Rehabilitación, Emergencia, Triaje Adultos y Pediátrico, Hospitalización, Cuidados Intensivos, Centro de Hemoterapia, Banco de Sangre, Farmacia, Diagnóstico por Imágenes (Radiología, Ecografía, Tomografía), Laboratorio, Nutrición y Dietética, Centro Quirúrgico, Intervenciones Quirúrgicas</servicios>
+        <distrito>Miraflores</distrito>
+        <telefono>(01) 2040900</telefono>
+        <direccion>Av. Roosvelt Nº 6355, MIRAFLORES, LIMA</direccion>
+        <coordenadas>-12.128107, -77.017773</coordenadas>
+    </centro>    
+    <centro id="15">
+        <id>15</id>
+        <nombre>Hospital Vitarte</nombre>
+        <categoria>II-1</categoria>
+        <horario>8:00 - 18:00</horario>
+        <emergencias_24h>SI</emergencias_24h>
+        <urgencias_24h>SI</urgencias_24h>
+        <servicios>Medicina Interna, Neumología, Dermatología, Gastroenterología, Psiquiatría, Cirugía General, Traumatología, Urología, Otorrinolaringología, Oftalmología, Cirugía Plástica, Pediatría, Neonatología, Gineco Obstetricia, Vacunas, Psicoprofilaxis, Odonto-estomatología, Anestesiología, Laboratorio, Radiología y ecografías, Nutrición, Farmacia, Enfermería, Servicio Social</servicios>
+        <distrito>Ate</distrito>
+        <telefono>(01) 4106180</telefono>
+        <direccion>Av. Nicolás Ayllón 5880, ATE, LIMA</direccion>
+        <coordenadas>-12.026310, -76.919951</coordenadas>
+    </centro>
+     <centro id="16">
+        <id>16</id>
+        <nombre>HOSPITAL EMERGENCIA ATE VITARTE</nombre>
+        <categoria>II-E</categoria>
+        <horario>24 horas</horario>
+        <emergencias_24h>SI</emergencias_24h>
+        <urgencias_24h>SI</urgencias_24h>
+        <servicios>Endocrinología, Cardiología, Cirugía Cabeza y Cuello, Cirugía Tórax y Cardiovascular, Cirugía General, Cirugía Plástica, Dermatología, Gastroenterología, Ginecología, Medicina General, Medicina Interna, Neumología, Oftalmología, Otorrinolaringología, Pediatría, Reumatología, Traumatología, Urología, Farmacia, Radiología, Anatomía Patológica, Densitometría Ósea, Ecografía, Ecografía Ginecológica, Farmacia Dermatológica, Obstetricia, Odontología, Laboratorio Clínico, Tópico, Psicología, Resonancia Magnética, Terapia Física y Rehabilitación, Tomografía</servicios>
+        <distrito>ATE</distrito>
+        <telefono>(01) 4172923</telefono>
+        <direccion>AVENIDA JOSE CARLOS MARIATEGUI 364 A UNA CUADRA DE LA MUNICIPALIDAD DE ATE, ATE, LIMA</direccion>
+        <coordenadas>-12.026520027085967, -76.9174371736295</coordenadas>
+    </centro>    
+    <centro id="17">
+        <id>17</id>
+        <nombre>HOSPITAL NACIONAL DOCENTE MADRE NIÑO SAN BARTOLOME</nombre>
+        <categoria>III-E</categoria>
+        <horario>8:00 A 14:00</horario>
+        <emergencias_24h>SI</emergencias_24h>
+        <urgencias_24h>SI</urgencias_24h>
+        <servicios>Salud sexual y reproductiva de la mujer, ginecología y obstetricia, atención prenatal y posnatal, planificación familiar, control de enfermedades de transmisión sexual, cuidado del feto y neonato, unidad de cuidados intensivos neonatales, seguimiento del desarrollo del lactante, consultas pediátricas generales, especialidades pediátricas como neumología, cardiología y neurología pediátrica, atención al niño y adolescente, formación de especialistas en salud materna y pediátrica, campañas de salud comunitaria, cirugía pediátrica, cirugías neonatales de alta complejidad, tratamiento de infertilidad, procedimientos ginecológicos avanzados, diagnóstico prenatal, intervenciones fetales, diagnóstico por imágenes, ecografía obstétrica y pediátrica, laboratorio clínico especializado, banco de sangre, psicología, apoyo emocional, rehabilitación pediátrica, emergencias materno-infantiles, triaje obstétrico y pediátrico, atención de urgencias neonatales</servicios>
+        <distrito>LIMA</distrito>
+        <telefono>(01) 2010400</telefono>
+        <direccion>AVENIDA AV ALFONSO UGARTE Nº 825 LIMA CERCADO - ANEXO : JR.CHOTA 748 825 FRENTE AL HOSPITAL ARZOBISPO LOAYZA, LIMA, LIMA</direccion>
+        <coordenadas>-12.049740046421649, -77.0420248013753</coordenadas>
+    </centro>    
+    <centro id="18">
+        <id>18</id>
+        <nombre>HOSPITAL DE HUAYCAN</nombre>
+        <categoria>II-1</categoria>
+        <horario>24 HORAS</horario>
+        <emergencias_24h>SI</emergencias_24h>
+        <urgencias_24h>SI</urgencias_24h>
+        <servicios>Neumología, Medicina Interna, Consulta médica general, Medicina Física y Rehabilitación, Ginecología, Obstetricia, Planificación Familiar, Psicoprofilaxis y Estimulación pre Natal, Consulta Cirugía General, Urología, Oftalmología, Radiología, Ecografía, Consulta Pediátrica, Odontología, Psicología, Banco de Sangre I, Nutrición, Crecimiento y Desarrollo, Inmunizaciones, Psiquiatría, Gastroenterología, Medicina, Gineco-Obstetricia, Cirugía, Pediatría</servicios>
+        <distrito>ATE</distrito>
+        <telefono>(01) 3716797</telefono>
+        <direccion>AVENIDA JOSÉ C.MARIÁTEGUI S/N ZONA B - A.H.HUAYCÁN S/N, ATE, LIMA</direccion>
+        <coordenadas>-12.01575084568877, -76.82030552227813</coordenadas>
+    </centro>    
+    <centro id="19">
+        <id>19</id>
+        <nombre>HOSPITAL NACIONAL CAYETANO HEREDIA</nombre>
+        <categoria>III-1</categoria>
+        <horario>24 HORAS</horario>
+        <emergencias_24h>SI</emergencias_24h>
+        <urgencias_24h>SI</urgencias_24h>
+        <servicios>Consulta Externa, Atención Inmediata, Enfermedades Infecciosas y Tropicales, Dermatología, Teleorientación, Telemonitoreo, Teleconsulta, Teleinterconsulta, Medicina Interna, Cardiología, Psiquiatría, Endocrinología, Geriatría, Gastroenterología, Hematología, Oncología Médica, ADI Oncológica, Neumología, Nefrología, Inmuno-Reumatología, Neurología, Medicina Familiar, Patología Clínica, Anatomía Patológica, Hemoterapia y Banco de Sangre, Ginecología, Obstetricia, Ginecología Oncológica, Cirugía General, Cirugía Plástica, Cirugía de Tórax, Cirugía Cardiovascular y Angiología, Neurocirugía, Oftalmología, Otorrinolaringología, Traumatología, Ortopedia, Urología, Cirugía Oral-Maxilofacial, Medicina Física y Rehabilitación, Nutrición, Farmacia, Pediatría General, Neonatología, Cirugía Pediátrica, Especialidades Pediátricas (Cardiología, Neurología, Neumología, Infectología, Endocrinología, Nefrología, Gastroenterología, Genética), Anestesiología, Trasplante Renal, Emergencia Adultos, Emergencia Pediátrica, Cuidados Intensivos Pediátricos, Cuidados Intensivos Neonatales, Cuidados Intensivos Generales, Tomografía, Ecografía General y Doppler, Radiología, Procedimientos Especiales, Mamografía, Psicología Adultos y Adulto Mayor, Psicología Infantil, Neuropsicología, Cirugía Oncológica</servicios>
+        <distrito>SAN MARTIN DE PORRES</distrito>
+        <telefono>(01) 7544990</telefono>
+        <direccion>AVENIDA AV. HONORIO DELGADO 262 URB. INGENIERIA, DISTRITO SAN MARTIN DE PORRES, LIMA</direccion>
+        <coordenadas>-12.022489816023539, -77.0553471021252</coordenadas>
+    </centro>
+    <centro id="20">
+        <id>20</id>
+        <nombre>HOSPITAL SERGIO E. BERNALES</nombre>
+        <categoria>III-1</categoria>
+        <horario>8:00 - 13:00</horario>
+        <emergencias_24h>SI</emergencias_24h>
+        <urgencias_24h>SI</urgencias_24h>
+        <servicios>Cirugía, Diagnóstico por Imágenes, Estrategias Sanitarias, Farmacia, Gineco-Obstetricia, Laboratorio, Medicina, Pediatría</servicios>
+        <distrito>COMAS</distrito>
+        <telefono>(01) 5580186</telefono>
+        <direccion>AVENIDA AV. TUPAC AMARU KM. 14.5 AV. TUPAC AMARU KM. 14.5, COMAS, LIMA</direccion>
+        <coordenadas>-11.913788959563297, -77.03918437686617</coordenadas>
+    </centro>
+    <centro id="21">
+        <id>21</id>
+        <nombre>HOSPITAL DE MEDIANA COMPLEJIDAD JOSE AGURTO TELLO</nombre>
+        <categoria>II-2</categoria>
+        <horario>24 HORAS</horario>
+        <emergencias_24h>SI</emergencias_24h>
+        <urgencias_24h>SI</urgencias_24h>
+        <servicios>Cardiología, Gastroenterología, Endocrinología, Pediatría, Neurología, Ortopedia, Psiquiatría, Traumatología, Obstetricia y Ginecología, Oftalmología, Dermatología, Infectología, y Urología, Emergencias, Procedimientos Quirúrgicos, Diagnóstico por Imágenes, Hospitalización y Cuidados Críticos, Atención Obstétrica y Pediátrica, Farmacia, Enfermería, Rehabilitación y Nutrición</servicios>
+        <distrito>LURIGANCHO</distrito>
+        <telefono>(01) 4183232</telefono>
+        <direccion>JIRÓN JR. AREQUIPA 214-218, DISTRITO LURIGANCHO, LIMA</direccion>
+        <coordenadas>-11.934366591651942, -76.69345855039622</coordenadas>
+    </centro>
+    <centro id="22">
+        <id>22</id>
+        <nombre>HOSPITAL DE APOYO SANTA ROSA</nombre>
+        <categoria>III-1</categoria>
+        <horario>24 HORAS</horario>
+        <emergencias_24h>SI</emergencias_24h>
+        <urgencias_24h>SI</urgencias_24h>
+        <servicios>Anestesiología, Cirugía General, Emergencias y Cuidados Críticos, Diagnóstico por Imágenes, Ginecología y Obstetricia, Medicina, Odontología Estomatológica, Oncología, Pediatría, y Psicología</servicios>
+        <distrito>PUEBLO LIBRE</distrito>
+        <telefono>(01) 6158200</telefono>
+        <direccion>AVENIDA AV. BOLIVAR S/N CUADRA 8, PUEBLO LIBRE, LIMA</direccion>
+        <coordenadas>-12.07198193249489, -77.06103556955729</coordenadas>
+    </centro>
+    <centro id="23">
+        <id>23</id>
+        <nombre>HOSPITAL NACIONAL ARZOBISPO LOAYZA</nombre>
+        <categoria>III-1</categoria>
+        <horario>24 HORAS</horario>
+        <emergencias_24h>SI</emergencias_24h>
+        <urgencias_24h>SI</urgencias_24h>
+        <servicios>Medicina Interna, Cardiología y Cuidados Coronarios, Dermatología, Endocrinología, Gastroenterología, Geriatría, Oncohematología Clínica, Infectología, Inmunoreumatología, Medicina Física y Rehabilitación, Nefrología, Neumología, Neurología, Salud Mental, Cirugía General, Cirugía de Cabeza, Cuello y Maxilofacial, Cirugía Plástica y Quemados, Cirugía Torácica y Cardiovascular, Cirugía Vascular Periférico y Angiología, Neurocirugía, Oftalmología, Ortopedia y Traumatología, Otorrinolaringología, Urología, Ginecología y Obstetricia, Oncología Ginecológica y de Mama, Reproducción Humana, Obstetrices, Pediatría, Neonatología, Anestesiología y Centros Quirúrgicos, Patología Clínica, Banco de Sangre, Bioquímica, Hematología, Inmunoserología, Microbiología, Anatomía Patológica, Diagnóstico por Imágenes, Radiología, Ecografía, Medicina Nuclear, Consulta Externa por Hospitalización, Emergencia y Cuidados Críticos, Emergencia, Cuidados Críticos, Nutrición, Farmacia, Enfermería, Servicio Social, y Estomatología</servicios>
+        <distrito>LIMA</distrito>
+        <telefono>(01) 5094800</telefono>
+        <direccion>AVENIDA AV. ALFONSO UGARTE 848, LIMA, LIMA</direccion>
+        <coordenadas>-12.04976663877201, -77.0427088407309</coordenadas>
+    </centro>    
+
+</centros_medicos>
